@@ -453,7 +453,7 @@ def page_html(site, rel, title, desc, path, breadcrumb, body_html, jsonlds, curr
             '</div>')
     scripts = ''.join(
         '<script src="%sassets/js/%s"></script>' % (r, f)
-        for f in ['config.js', 'theme.js', 'nav.js', 'search.js', 'reading.js', 'breathe-clamp.js', 'main.js']
+        for f in ['anticopy.js', 'config.js', 'theme.js', 'nav.js', 'search.js', 'reading.js', 'breathe-clamp.js', 'main.js']
     )
     jsonld = ''.join(jsonld_script(j) for j in jsonlds)
     og_url = root_url + path
