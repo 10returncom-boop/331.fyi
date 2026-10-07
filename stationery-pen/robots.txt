@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://example.com/fountain-pen-encyclopedia/sitemap.xml
+Sitemap: https://331.fyi/stationery-pen/sitemap.xml
