@@ -1,0 +1,1067 @@
+{
+  "site": {
+    "name": "世上最強鋼筆百科",
+    "en": "Ultimate Fountain Pen Encyclopedia",
+    "version": "1.1.0",
+    "updated": "2026-10-06",
+    "desc": "以「章節 → 文章」兩層下拉導覽搭配「分類 → 子分類 → 文章」三層網址結構建構的鋼筆知識百科：涵蓋原理、結構、材質、筆尖、上墨、墨水、品牌、選購、保養、歷史、收藏與 DIY。",
+    "lang": "zh-Hant",
+    "rootUrl": "https://example.com/fountain-pen-encyclopedia/"
+  },
+  "chapters": [
+    {
+      "id": "overview",
+      "zh": "概述",
+      "en": "Overview",
+      "desc": "鋼筆基礎總論：原理、比較與定位。",
+      "subs": [
+        {
+          "id": "basics",
+          "zh": "基礎原理",
+          "en": "Basics",
+          "desc": "鋼筆如何運作的核心物理與書寫科學。"
+        },
+        {
+          "id": "compare",
+          "zh": "比較定位",
+          "en": "Comparison & Role",
+          "desc": "鋼筆與其他書寫工具之比較、優缺點與數位時代定位。"
+        }
+      ]
+    },
+    {
+      "id": "structure",
+      "zh": "結構",
+      "en": "Structure",
+      "desc": "鋼筆零件與機構解析。",
+      "subs": [
+        {
+          "id": "exterior",
+          "zh": "外觀部件",
+          "en": "Exterior Parts",
+          "desc": "筆蓋、筆夾、筆桿、筆握的設計與功能。"
+        },
+        {
+          "id": "internals",
+          "zh": "內部機構",
+          "en": "Internal Mechanism",
+          "desc": "筆舌、供墨溝與導墨系統。"
+        },
+        {
+          "id": "capping",
+          "zh": "蓋合機構",
+          "en": "Capping",
+          "desc": "旋蓋、按動、磁吸等蓋合機制比較。"
+        },
+        {
+          "id": "diagnosis",
+          "zh": "故障診斷",
+          "en": "Diagnosis",
+          "desc": "零件故障對應症狀速查。"
+        }
+      ]
+    },
+    {
+      "id": "material",
+      "zh": "材質",
+      "en": "Material",
+      "desc": "筆桿、筆尖與密封材料全解析。",
+      "subs": [
+        {
+          "id": "body",
+          "zh": "筆桿材質",
+          "en": "Body Material",
+          "desc": "樹脂、賽璐珞、金屬與天然材質。"
+        },
+        {
+          "id": "nibmetal",
+          "zh": "筆尖材質",
+          "en": "Nib Metal",
+          "desc": "鋼尖、金尖與其他貴金屬尖。"
+        },
+        {
+          "id": "seal",
+          "zh": "密封零件",
+          "en": "Seal Parts",
+          "desc": "橡膠與矽膠密封件的特性與老化。"
+        }
+      ]
+    },
+    {
+      "id": "nib",
+      "zh": "筆尖",
+      "en": "Nib",
+      "desc": "銥尖、打磨與書寫手感。",
+      "subs": [
+        {
+          "id": "size",
+          "zh": "尺寸規格",
+          "en": "Nib Size",
+          "desc": "EF、F、M、B、BB 與日歐系差異。"
+        },
+        {
+          "id": "tipping",
+          "zh": "銥粒",
+          "en": "Tipping",
+          "desc": "銥合金、耐磨原理與崩銥。"
+        },
+        {
+          "id": "grinds",
+          "zh": "打磨",
+          "en": "Nib Grinds",
+          "desc": "圓滑、刀磨、斜尖、平尖與美術尖。"
+        },
+        {
+          "id": "flex",
+          "zh": "彈性尖",
+          "en": "Flex Nib",
+          "desc": "Flex 與 Soft Nib 的特性與使用。"
+        },
+        {
+          "id": "tuning",
+          "zh": "問題調校",
+          "en": "Tuning",
+          "desc": "下墨、刮紙、飛白成因與 Nib Tuning 基礎。"
+        }
+      ]
+    },
+    {
+      "id": "filling",
+      "zh": "上墨",
+      "en": "Filling",
+      "desc": "上墨系統全解析。",
+      "subs": [
+        {
+          "id": "converter",
+          "zh": "吸墨器",
+          "en": "Converter",
+          "desc": "活塞、螺旋、壓囊式吸墨器。"
+        },
+        {
+          "id": "cartridge",
+          "zh": "卡式墨水管",
+          "en": "Cartridge",
+          "desc": "墨囊的規格、使用與注意事項。"
+        },
+        {
+          "id": "special",
+          "zh": "特殊系統",
+          "en": "Special Systems",
+          "desc": "滴入式、壓力、真空與古董上墨。"
+        },
+        {
+          "id": "compare",
+          "zh": "比較與清潔",
+          "en": "Compare & Clean",
+          "desc": "各系統容量、故障率比較與清潔重點。"
+        }
+      ]
+    },
+    {
+      "id": "ink",
+      "zh": "墨水",
+      "en": "Ink",
+      "desc": "墨水種類、化學、堵筆與保養。",
+      "subs": [
+        {
+          "id": "types",
+          "zh": "墨水種類",
+          "en": "Ink Types",
+          "desc": "染料、顏料與鐵膽墨水。"
+        },
+        {
+          "id": "properties",
+          "zh": "屬性",
+          "en": "Properties",
+          "desc": "防水、耐光、潤滑、pH 與色層。"
+        },
+        {
+          "id": "problems",
+          "zh": "問題與儲存",
+          "en": "Problems & Storage",
+          "desc": "堵筆、結晶、腐蝕與混調禁忌。"
+        },
+        {
+          "id": "brands",
+          "zh": "品牌",
+          "en": "Ink Brands",
+          "desc": "主流墨水品牌導覽。"
+        }
+      ]
+    },
+    {
+      "id": "category",
+      "zh": "分類",
+      "en": "Categories",
+      "desc": "鋼筆類型與使用場景。",
+      "subs": [
+        {
+          "id": "level",
+          "zh": "依定位",
+          "en": "By Tier",
+          "desc": "入門、日常、高級與旗艦。"
+        },
+        {
+          "id": "form",
+          "zh": "依形式",
+          "en": "By Form",
+          "desc": "限量特別版、旅行短鋼筆。"
+        },
+        {
+          "id": "special",
+          "zh": "特殊類型",
+          "en": "Special Types",
+          "desc": "蘸水筆、復古筆與書法筆。"
+        }
+      ]
+    },
+    {
+      "id": "brand",
+      "zh": "品牌",
+      "en": "Brands",
+      "desc": "國際、日系、臺灣與國產品牌。",
+      "subs": [
+        {
+          "id": "europe",
+          "zh": "歐美品牌",
+          "en": "European & US",
+          "desc": "萬寶龍、百利金、派克、水人、凌美與義大利筆。"
+        },
+        {
+          "id": "japan",
+          "zh": "日系品牌",
+          "en": "Japanese",
+          "desc": "百樂、寫樂、白金。"
+        },
+        {
+          "id": "taiwan",
+          "zh": "臺灣與國產",
+          "en": "Taiwan & China",
+          "desc": "i文具控、TACCIA、SKB、英雄、永生與手作工作室。"
+        }
+      ]
+    },
+    {
+      "id": "buy",
+      "zh": "選購",
+      "en": "Buying",
+      "desc": "挑筆指南、預算對照與避坑。",
+      "subs": [
+        {
+          "id": "habit",
+          "zh": "依書寫習慣",
+          "en": "By Habit",
+          "desc": "筆尖、手型與握筆習慣。"
+        },
+        {
+          "id": "budget",
+          "zh": "依預算",
+          "en": "By Budget",
+          "desc": "入門、中階與高階預算推薦。"
+        },
+        {
+          "id": "secondhand",
+          "zh": "二手避坑",
+          "en": "Secondhand",
+          "desc": "老筆檢查清單與假筆辨識。"
+        }
+      ]
+    },
+    {
+      "id": "care",
+      "zh": "保養",
+      "en": "Care",
+      "desc": "清潔、維修與長期保存。",
+      "subs": [
+        {
+          "id": "cleaning",
+          "zh": "清潔",
+          "en": "Cleaning",
+          "desc": "定期清洗流程與頻率。"
+        },
+        {
+          "id": "issues",
+          "zh": "問題處理",
+          "en": "Troubleshooting",
+          "desc": "洩墨、斷墨、出水不順與飛白。"
+        },
+        {
+          "id": "parts",
+          "zh": "零件維修",
+          "en": "Parts & Repair",
+          "desc": "零件更換與橡膠老化修復。"
+        },
+        {
+          "id": "storage",
+          "zh": "保存",
+          "en": "Storage",
+          "desc": "長期不使用的保存方法。"
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "zh": "歷史",
+      "en": "History",
+      "desc": "鋼筆發展史。",
+      "subs": [
+        {
+          "id": "origin",
+          "zh": "起源",
+          "en": "Origins",
+          "desc": "蘸水筆時代與自來水鋼筆誕生。"
+        },
+        {
+          "id": "golden",
+          "zh": "黃金年代",
+          "en": "Golden Age",
+          "desc": "1900–1950 的輝煌與傳奇筆款。"
+        },
+        {
+          "id": "modern",
+          "zh": "轉型復興",
+          "en": "Modern Era",
+          "desc": "原子筆衝擊後的轉型與近代復興。"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "zh": "藏家交流",
+      "en": "Collecting",
+      "desc": "價值、品相與鑑定。",
+      "subs": [
+        {
+          "id": "condition",
+          "zh": "品相",
+          "en": "Condition",
+          "desc": "品相術語與分級系統。"
+        },
+        {
+          "id": "value",
+          "zh": "價值",
+          "en": "Value",
+          "desc": "影響價值的因素與市場行情。"
+        },
+        {
+          "id": "identify",
+          "zh": "鑑定與保存",
+          "en": "Identify & Preserve",
+          "desc": "假筆辨識與存放環境控制。"
+        }
+      ]
+    },
+    {
+      "id": "diy",
+      "zh": "DIY",
+      "en": "DIY",
+      "desc": "改尖、改上墨與維修手作。",
+      "subs": [
+        {
+          "id": "prep",
+          "zh": "準備",
+          "en": "Preparation",
+          "desc": "工具清單與安全提醒。"
+        },
+        {
+          "id": "nibwork",
+          "zh": "筆尖作業",
+          "en": "Nib Work",
+          "desc": "拆裝、打磨與彈尖調整。"
+        },
+        {
+          "id": "filling",
+          "zh": "上墨維修",
+          "en": "Filling Repair",
+          "desc": "上墨系統維修與替換。"
+        },
+        {
+          "id": "risk",
+          "zh": "風險",
+          "en": "Risks",
+          "desc": "改筆風險與不可逆損壞案例。"
+        }
+      ]
+    },
+    {
+      "id": "glossary",
+      "zh": "詞彙",
+      "en": "Glossary",
+      "desc": "鋼筆術語辭典（A–Z 中英對照）。",
+      "subs": [
+        {
+          "id": "core",
+          "zh": "核心術語",
+          "en": "Core Terms",
+          "desc": "毛細、銥粒、筆舌、色層等基礎術語。"
+        },
+        {
+          "id": "jargon",
+          "zh": "行話縮寫",
+          "en": "Jargon",
+          "desc": "NOS、Flex、EF、OM 等鋼筆圈行話。"
+        }
+      ]
+    },
+    {
+      "id": "appendix",
+      "zh": "附錄",
+      "en": "Appendix",
+      "desc": "表格、檢查清單與參考資源。",
+      "subs": [
+        {
+          "id": "tables",
+          "zh": "對照表",
+          "en": "Reference Tables",
+          "desc": "筆尖規格與墨水屬性對照表。"
+        },
+        {
+          "id": "resources",
+          "zh": "資源",
+          "en": "Resources",
+          "desc": "保養檢查清單與參考文獻。"
+        }
+      ]
+    },
+    {
+      "id": "tylee",
+      "zh": "i文具控",
+      "en": "i Stationery",
+      "desc": "關於本站與品牌介紹。",
+      "subs": [
+        {
+          "id": "about",
+          "zh": "關於i文具控",
+          "en": "About",
+          "desc": "品牌故事與臺灣鋼筆文化。"
+        }
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "slug": "capillary-action",
+      "title": "鋼筆原理：毛細作用介紹",
+      "chapter": "overview",
+      "sub": "basics"
+    },
+    {
+      "slug": "ink-flow-science",
+      "title": "墨水如何流動：從儲墨到紙面的旅程",
+      "chapter": "overview",
+      "sub": "basics"
+    },
+    {
+      "slug": "vs-ballpoint",
+      "title": "鋼筆 vs 原子筆 vs 鋼珠筆 vs 蘸水筆",
+      "chapter": "overview",
+      "sub": "compare"
+    },
+    {
+      "slug": "pros-cons-myths",
+      "title": "鋼筆的優缺點與常見迷思破除",
+      "chapter": "overview",
+      "sub": "compare"
+    },
+    {
+      "slug": "cap-and-clip",
+      "title": "筆蓋與筆夾：設計、功能與實用細節",
+      "chapter": "structure",
+      "sub": "exterior"
+    },
+    {
+      "slug": "barrel-and-grip",
+      "title": "筆桿與筆握：人體工學與造型設計",
+      "chapter": "structure",
+      "sub": "exterior"
+    },
+    {
+      "slug": "feed-and-channel",
+      "title": "筆舌與供墨溝：鋼筆的心臟",
+      "chapter": "structure",
+      "sub": "internals"
+    },
+    {
+      "slug": "ink-delivery-system",
+      "title": "導墨系統全解析：從儲墨腔到出墨口",
+      "chapter": "structure",
+      "sub": "internals"
+    },
+    {
+      "slug": "capping-mechanisms",
+      "title": "旋蓋式 vs 按動式 vs 磁吸式：蓋合機制比較",
+      "chapter": "structure",
+      "sub": "capping"
+    },
+    {
+      "slug": "part-fault-symptoms",
+      "title": "零件故障對應症狀速查表",
+      "chapter": "structure",
+      "sub": "diagnosis"
+    },
+    {
+      "slug": "resin-body",
+      "title": "樹脂筆桿：最普遍的現代筆身材質",
+      "chapter": "material",
+      "sub": "body"
+    },
+    {
+      "slug": "celluloid-body",
+      "title": "賽璐珞：經典老筆的靈魂材質",
+      "chapter": "material",
+      "sub": "body"
+    },
+    {
+      "slug": "metal-body",
+      "title": "金屬筆桿：鋁、黃銅、銀與鈦合金",
+      "chapter": "material",
+      "sub": "body"
+    },
+    {
+      "slug": "natural-body",
+      "title": "木、牛角、琺瑯等特殊筆身材質",
+      "chapter": "material",
+      "sub": "body"
+    },
+    {
+      "slug": "steel-nib-material",
+      "title": "鋼尖：從入門到進階的可靠選擇",
+      "chapter": "material",
+      "sub": "nibmetal"
+    },
+    {
+      "slug": "gold-nib-material",
+      "title": "金尖：14K 與 18K 的黃金比例之爭",
+      "chapter": "material",
+      "sub": "nibmetal"
+    },
+    {
+      "slug": "platinum-nib-material",
+      "title": "21K 金尖與其他貴金屬筆尖",
+      "chapter": "material",
+      "sub": "nibmetal"
+    },
+    {
+      "slug": "seal-rubber-aging",
+      "title": "橡膠與矽膠密封件：老化特性與更換",
+      "chapter": "material",
+      "sub": "seal"
+    },
+    {
+      "slug": "nib-sizes",
+      "title": "筆尖尺寸 EF、F、M、B、BB 全解析",
+      "chapter": "nib",
+      "sub": "size"
+    },
+    {
+      "slug": "jp-vs-eu-sizes",
+      "title": "日系 vs 歐系筆尖尺寸差異",
+      "chapter": "nib",
+      "sub": "size"
+    },
+    {
+      "slug": "iridium-tipping",
+      "title": "銥粒：銥合金、耐磨原理與打磨",
+      "chapter": "nib",
+      "sub": "tipping"
+    },
+    {
+      "slug": "tipping-damage",
+      "title": "崩銥與銥點受損：成因與處理",
+      "chapter": "nib",
+      "sub": "tipping"
+    },
+    {
+      "slug": "nib-grinds",
+      "title": "常見打磨：圓滑、刀磨與斜尖",
+      "chapter": "nib",
+      "sub": "grinds"
+    },
+    {
+      "slug": "stub-italic-nibs",
+      "title": "平尖與美術尖：Stub、Italic 的書寫魅力",
+      "chapter": "nib",
+      "sub": "grinds"
+    },
+    {
+      "slug": "flex-soft-nibs",
+      "title": "彈性尖 Flex 與軟尖 Soft Nib 完全指南",
+      "chapter": "nib",
+      "sub": "flex"
+    },
+    {
+      "slug": "flow-issues-tuning",
+      "title": "下墨異常成因與 Nib Tuning 基礎",
+      "chapter": "nib",
+      "sub": "tuning"
+    },
+    {
+      "slug": "converter-types",
+      "title": "吸墨器種類：活塞、螺旋與壓囊式",
+      "chapter": "filling",
+      "sub": "converter"
+    },
+    {
+      "slug": "cartridge-guide",
+      "title": "卡式墨水管（墨囊）完全指南",
+      "chapter": "filling",
+      "sub": "cartridge"
+    },
+    {
+      "slug": "eyedropper-filling",
+      "title": "滴入式上墨：容量之王的日常",
+      "chapter": "filling",
+      "sub": "special"
+    },
+    {
+      "slug": "vacuum-filling",
+      "title": "壓力上墨與真空上墨",
+      "chapter": "filling",
+      "sub": "special"
+    },
+    {
+      "slug": "antique-filling-systems",
+      "title": "古董上墨系統：槓桿、按鈕與半月",
+      "chapter": "filling",
+      "sub": "special"
+    },
+    {
+      "slug": "filling-comparison",
+      "title": "上墨系統比較：容量、便利與故障率",
+      "chapter": "filling",
+      "sub": "compare"
+    },
+    {
+      "slug": "filling-cleaning",
+      "title": "上墨系統清潔重點",
+      "chapter": "filling",
+      "sub": "compare"
+    },
+    {
+      "slug": "dye-inks",
+      "title": "染料墨水：色彩繽紛的日常之選",
+      "chapter": "ink",
+      "sub": "types"
+    },
+    {
+      "slug": "pigment-inks",
+      "title": "顏料墨水：防水耐光的進階選擇",
+      "chapter": "ink",
+      "sub": "types"
+    },
+    {
+      "slug": "iron-gall-inks",
+      "title": "鐵膽墨水：經典配方與現代再興",
+      "chapter": "ink",
+      "sub": "types"
+    },
+    {
+      "slug": "ink-properties",
+      "title": "防水、耐光、潤滑與 pH 值：墨水屬性全解",
+      "chapter": "ink",
+      "sub": "properties"
+    },
+    {
+      "slug": "sheen-and-shading",
+      "title": "Sheen、色層與分層：墨水的光影魔法",
+      "chapter": "ink",
+      "sub": "properties"
+    },
+    {
+      "slug": "clogging-and-corrosion",
+      "title": "堵筆、結晶與腐蝕機制",
+      "chapter": "ink",
+      "sub": "problems"
+    },
+    {
+      "slug": "mixing-and-storage",
+      "title": "墨水混調禁忌與儲存指南",
+      "chapter": "ink",
+      "sub": "problems"
+    },
+    {
+      "slug": "ink-brand-guide",
+      "title": "墨水品牌導覽：從百利金到 Kobe INK",
+      "chapter": "ink",
+      "sub": "brands"
+    },
+    {
+      "slug": "starter-daily-pens",
+      "title": "入門鋼筆與日常書寫鋼筆",
+      "chapter": "category",
+      "sub": "level"
+    },
+    {
+      "slug": "premium-flagship-pens",
+      "title": "高級日用鋼筆與旗艦款",
+      "chapter": "category",
+      "sub": "level"
+    },
+    {
+      "slug": "limited-editions",
+      "title": "限量與特別版：收藏迷的目標",
+      "chapter": "category",
+      "sub": "form"
+    },
+    {
+      "slug": "travel-short-pens",
+      "title": "旅行短鋼筆與攜帶型設計",
+      "chapter": "category",
+      "sub": "form"
+    },
+    {
+      "slug": "dip-and-vintage-pens",
+      "title": "蘸水筆與復古鋼筆",
+      "chapter": "category",
+      "sub": "special"
+    },
+    {
+      "slug": "calligraphy-pens",
+      "title": "美術書法鋼筆與平尖英文書法筆",
+      "chapter": "category",
+      "sub": "special"
+    },
+    {
+      "slug": "brand-montblanc",
+      "title": "萬寶龍 Montblanc：奢華筆具的代名詞",
+      "chapter": "brand",
+      "sub": "europe"
+    },
+    {
+      "slug": "brand-pelikan",
+      "title": "百利金 Pelikan：鵜鶘與綠條紋的傳奇",
+      "chapter": "brand",
+      "sub": "europe"
+    },
+    {
+      "slug": "brand-parker",
+      "title": "派克 Parker：從 Duofold 到 51",
+      "chapter": "brand",
+      "sub": "europe"
+    },
+    {
+      "slug": "brand-waterman",
+      "title": "水人 Waterman：現代鋼筆之父",
+      "chapter": "brand",
+      "sub": "europe"
+    },
+    {
+      "slug": "brand-lamy",
+      "title": "凌美 Lamy：德國設計的當代經典",
+      "chapter": "brand",
+      "sub": "europe"
+    },
+    {
+      "slug": "brand-italian",
+      "title": "義大利鋼筆：Visconti、Aurora 與 Delta",
+      "chapter": "brand",
+      "sub": "europe"
+    },
+    {
+      "slug": "brand-pilot",
+      "title": "百樂 Pilot：日系鋼筆的中流砥柱",
+      "chapter": "brand",
+      "sub": "japan"
+    },
+    {
+      "slug": "brand-sailor",
+      "title": "寫樂 Sailor：長刀研與硬滑手感",
+      "chapter": "brand",
+      "sub": "japan"
+    },
+    {
+      "slug": "brand-platinum",
+      "title": "白金 Platinum：3776 與極致的氣密工藝",
+      "chapter": "brand",
+      "sub": "japan"
+    },
+    {
+      "slug": "brand-taiwan",
+      "title": "臺灣品牌：i文具控、TACCIA、TA+D 與 SKB",
+      "chapter": "brand",
+      "sub": "taiwan"
+    },
+    {
+      "slug": "brand-chinese",
+      "title": "國產鋼筆：英雄、永生與弘典",
+      "chapter": "brand",
+      "sub": "taiwan"
+    },
+    {
+      "slug": "brand-bespoke",
+      "title": "獨立手作筆尖工作室與客製化",
+      "chapter": "brand",
+      "sub": "taiwan"
+    },
+    {
+      "slug": "nib-selection-habit",
+      "title": "依書寫習慣挑筆尖：中文、西文與彈尖",
+      "chapter": "buy",
+      "sub": "habit"
+    },
+    {
+      "slug": "grip-and-weight",
+      "title": "手型、筆握粗細與重量選擇",
+      "chapter": "buy",
+      "sub": "habit"
+    },
+    {
+      "slug": "budget-entry",
+      "title": "入門預算推薦：新台幣 3,000 元以下",
+      "chapter": "buy",
+      "sub": "budget"
+    },
+    {
+      "slug": "budget-mid",
+      "title": "中階預算推薦：3,000–10,000 元",
+      "chapter": "buy",
+      "sub": "budget"
+    },
+    {
+      "slug": "budget-premium",
+      "title": "高階與旗艦預算指南",
+      "chapter": "buy",
+      "sub": "budget"
+    },
+    {
+      "slug": "secondhand-checklist",
+      "title": "二手庫存老筆選購檢查清單",
+      "chapter": "buy",
+      "sub": "secondhand"
+    },
+    {
+      "slug": "buying-pitfalls",
+      "title": "假筆、翻新筆與庫存老化筆避坑指南",
+      "chapter": "buy",
+      "sub": "secondhand"
+    },
+    {
+      "slug": "cleaning-routine",
+      "title": "鋼筆定期清洗流程",
+      "chapter": "care",
+      "sub": "cleaning"
+    },
+    {
+      "slug": "cleaning-frequency",
+      "title": "不同墨水與使用頻率的清洗建議",
+      "chapter": "care",
+      "sub": "cleaning"
+    },
+    {
+      "slug": "leak-troubleshooting",
+      "title": "洩墨、斷墨與筆蓋漏墨處理",
+      "chapter": "care",
+      "sub": "issues"
+    },
+    {
+      "slug": "flow-fix",
+      "title": "出水不順與飛白的排查與修正",
+      "chapter": "care",
+      "sub": "issues"
+    },
+    {
+      "slug": "parts-replacement",
+      "title": "零件更換與橡膠老化修復",
+      "chapter": "care",
+      "sub": "parts"
+    },
+    {
+      "slug": "long-term-storage",
+      "title": "長期不使用的保存方法",
+      "chapter": "care",
+      "sub": "storage"
+    },
+    {
+      "slug": "dip-pen-era",
+      "title": "蘸水筆時代：鋼筆的祖先",
+      "chapter": "history",
+      "sub": "origin"
+    },
+    {
+      "slug": "fountain-pen-birth",
+      "title": "自來水鋼筆的誕生與專利戰",
+      "chapter": "history",
+      "sub": "origin"
+    },
+    {
+      "slug": "golden-age",
+      "title": "黃金年代：1900–1950 的輝煌",
+      "chapter": "history",
+      "sub": "golden"
+    },
+    {
+      "slug": "legendary-models",
+      "title": "傳奇筆款：Parker 51 與它的時代",
+      "chapter": "history",
+      "sub": "golden"
+    },
+    {
+      "slug": "ballpoint-transition",
+      "title": "原子筆興起後的鋼筆轉型",
+      "chapter": "history",
+      "sub": "modern"
+    },
+    {
+      "slug": "modern-revival",
+      "title": "近代鋼筆復興與臺灣市場",
+      "chapter": "history",
+      "sub": "modern"
+    },
+    {
+      "slug": "condition-terms",
+      "title": "品相術語：NOS、二手、修復品與展示品",
+      "chapter": "collect",
+      "sub": "condition"
+    },
+    {
+      "slug": "grading-system",
+      "title": "品相分級系統與實用評分法",
+      "chapter": "collect",
+      "sub": "condition"
+    },
+    {
+      "slug": "value-factors",
+      "title": "影響價值的因素：年代、限量、狀態與原盒",
+      "chapter": "collect",
+      "sub": "value"
+    },
+    {
+      "slug": "market-overview",
+      "title": "老筆收藏市場行情概覽",
+      "chapter": "collect",
+      "sub": "value"
+    },
+    {
+      "slug": "counterfeit-identification",
+      "title": "假筆辨識重點",
+      "chapter": "collect",
+      "sub": "identify"
+    },
+    {
+      "slug": "storage-environment",
+      "title": "存放環境控制：濕度與溫度",
+      "chapter": "collect",
+      "sub": "identify"
+    },
+    {
+      "slug": "diy-tools",
+      "title": "DIY 工具清單與安全提醒",
+      "chapter": "diy",
+      "sub": "prep"
+    },
+    {
+      "slug": "diy-nib-swap",
+      "title": "筆尖拆裝與簡單打磨",
+      "chapter": "diy",
+      "sub": "nibwork"
+    },
+    {
+      "slug": "diy-flex-tuning",
+      "title": "彈尖調整與筆尖矯正",
+      "chapter": "diy",
+      "sub": "nibwork"
+    },
+    {
+      "slug": "diy-filling-repair",
+      "title": "上墨系統維修與替換",
+      "chapter": "diy",
+      "sub": "filling"
+    },
+    {
+      "slug": "diy-risks",
+      "title": "改筆風險與不可逆損壞案例",
+      "chapter": "diy",
+      "sub": "risk"
+    },
+    {
+      "slug": "term-capillary-feed",
+      "title": "毛細現象與筆舌：核心術語解析",
+      "chapter": "glossary",
+      "sub": "core"
+    },
+    {
+      "slug": "term-iridium-grinds",
+      "title": "銥粒與打磨：術語全攻略",
+      "chapter": "glossary",
+      "sub": "core"
+    },
+    {
+      "slug": "term-sheen-shading",
+      "title": "色層、Sheen 與分層墨水術語",
+      "chapter": "glossary",
+      "sub": "core"
+    },
+    {
+      "slug": "term-nos",
+      "title": "NOS、NOSM 與庫存筆行話",
+      "chapter": "glossary",
+      "sub": "jargon"
+    },
+    {
+      "slug": "term-flex",
+      "title": "Flex、Soft 與彈性術語",
+      "chapter": "glossary",
+      "sub": "jargon"
+    },
+    {
+      "slug": "term-abbreviations",
+      "title": "鋼筆圈常見縮寫：EF、EB、OM、BB 等",
+      "chapter": "glossary",
+      "sub": "jargon"
+    },
+    {
+      "slug": "nib-spec-table",
+      "title": "筆尖規格對照表",
+      "chapter": "appendix",
+      "sub": "tables"
+    },
+    {
+      "slug": "ink-property-table",
+      "title": "墨水屬性對照表",
+      "chapter": "appendix",
+      "sub": "tables"
+    },
+    {
+      "slug": "care-checklist",
+      "title": "保養檢查清單",
+      "chapter": "appendix",
+      "sub": "resources"
+    },
+    {
+      "slug": "references",
+      "title": "參考文獻與延伸資源",
+      "chapter": "appendix",
+      "sub": "resources"
+    },
+    {
+      "slug": "tylee-story",
+      "title": "i文具控：臺灣鋼筆文化的推手",
+      "chapter": "tylee",
+      "sub": "about"
+    },
+    {
+      "slug": "tylee-services",
+      "title": "實體店、試寫與維修服務指南",
+      "chapter": "tylee",
+      "sub": "services"
+    },
+    {
+      "slug": "tylee-custom",
+      "title": "訂製客製筆與筆尖調校服務",
+      "chapter": "tylee",
+      "sub": "services"
+    },
+    {
+      "slug": "tylee-catalog",
+      "title": "商品分類導覽：從鋼筆到紙品",
+      "chapter": "tylee",
+      "sub": "catalog"
+    },
+    {
+      "slug": "fountain-pen-starter-guide",
+      "title": "鋼筆入門完全指南：從零開始挑選你的第一支鋼筆",
+      "chapter": "overview",
+      "sub": "basics"
+    }
+  ]
+}

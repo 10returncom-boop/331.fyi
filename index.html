@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>331.fyi的知識宇宙｜以筆墨，記錄知識與思緒</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M4 28 L12 9.5 L19 14.5 L28 4 L28 8 L9.5 28 Z' fill='%23C9A227'/%3E%3Cpath d='M28 4 L19 14.5 L20 16.5 L28 8 Z' fill='%23E3C46D'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://miaoda.feishu.cn/fonts/css2?family=Noto+Serif+TC:wght@600;700;900&family=Noto+Sans+TC:wght@300;400;500;700&display=swap">
+<style>
+  :root{
+    --bg:#0B1120;
+    --gold:#C9A227;
+    --gold-soft:#E3C46D;
+    --paper:#F2ECDF;
+    --muted:#B9C2D4;
+    --line:rgba(201,162,39,.32);
+    --serif:"Noto Serif TC","Songti TC","PMingLiU",serif;
+    --sans:"Noto Sans TC","Microsoft JhengHei","微軟正黑體",sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:var(--sans);
+    background:var(--bg);
+    color:var(--paper);
+    line-height:1.7;
+    -webkit-font-smoothing:antialiased;
+    min-height:100vh;
+  }
+  ::selection{background:rgba(201,162,39,.35)}
+  .page{max-width:1180px;margin:0 auto;padding:0 32px}
+
+  /* ===== Hero 滿版 ===== */
+  .hero{
+    position:relative;
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    background:url('assets/hero.jpg') center/cover no-repeat;
+  }
+  .hero::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:
+      linear-gradient(105deg, rgba(8,12,24,.94) 0%, rgba(8,12,24,.74) 42%, rgba(8,12,24,.30) 72%, rgba(8,12,24,.14) 100%),
+      linear-gradient(transparent 72%, rgba(8,12,24,.45) 100%);
+  }
+  .hero-copy{
+    position:relative;
+    z-index:1;
+    width:100%;
+    padding:96px 0;
+  }
+  .eyebrow{
+    font-size:14px;
+    letter-spacing:.34em;
+    color:var(--gold-soft);
+    margin-bottom:28px;
+    display:flex;
+    align-items:center;
+    gap:14px;
+  }
+  .eyebrow::before{
+    content:"";
+    width:38px;height:1px;
+    background:var(--gold);
+    display:inline-block;
+  }
+  h1{
+    font-family:var(--serif);
+    font-weight:900;
+    font-size:clamp(2.9rem, 5.8vw, 4.9rem);
+    line-height:1.2;
+    letter-spacing:.06em;
+    margin-bottom:30px;
+    max-width:12em;
+  }
+  .lead{
+    font-weight:300;
+    font-size:clamp(1rem, 1.4vw, 1.15rem);
+    color:var(--muted);
+    max-width:36em;
+    margin-bottom:44px;
+  }
+  .cta{
+    display:inline-block;
+    font-size:1rem;
+    font-weight:500;
+    letter-spacing:.06em;
+    color:var(--gold-soft);
+    text-decoration:none;
+    padding-bottom:6px;
+    border-bottom:1px solid var(--gold);
+    transition:color .25s ease, border-color .25s ease;
+  }
+  .cta:hover{color:var(--paper);border-color:var(--paper)}
+  .cta:focus-visible{
+    outline:2px solid var(--gold);
+    outline-offset:6px;
+    border-radius:2px;
+  }
+  .cta-note{
+    margin-top:14px;
+    font-size:.85rem;
+    color:rgba(185,194,212,.72);
+  }
+
+  /* ===== 三點隨筆 ===== */
+  .strip-inner{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    max-width:1180px;margin:0 auto;padding:40px 32px;
+    gap:48px;
+    border-top:1px solid var(--line);
+  }
+  .fact{
+    border-top:2px solid var(--gold);
+    padding-top:18px;
+  }
+  .fact h3{
+    font-family:var(--serif);
+    font-weight:700;
+    font-size:1.18rem;
+    letter-spacing:.1em;
+    margin-bottom:10px;
+  }
+  .fact p{
+    font-size:.92rem;
+    font-weight:300;
+    color:var(--muted);
+  }
+
+  /* ===== Footer ===== */
+  footer{
+    text-align:center;
+    padding:40px 24px 52px;
+    font-size:.88rem;
+    letter-spacing:.22em;
+    color:rgba(185,194,212,.62);
+  }
+
+  /* ===== Responsive ===== */
+  @media (max-width:900px){
+    .hero{min-height:88vh}
+    .hero-copy{padding:88px 0 64px}
+    .eyebrow{font-size:14px}
+    .cta{display:inline-flex;align-items:center;min-height:44px;padding:0 4px}
+    .cta-note{font-size:.88rem}
+    .strip-inner{grid-template-columns:1fr;gap:28px}
+    .fact{display:grid;grid-template-columns:120px 1fr;gap:16px;border-top:none;border-left:2px solid var(--gold);padding:4px 0 4px 20px}
+    .fact p{align-self:center}
+  }
+
+  /* ===== Hero 淡入 ===== */
+  .hero-copy{opacity:0;transform:translateY(18px)}
+  .hero.is-in .hero-copy{
+    opacity:1;transform:none;
+    transition:opacity .9s ease, transform .9s ease;
+  }
+  @media (prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto}
+    .hero-copy{opacity:1;transform:none}
+  }
+</style>
+</head>
+<body>
+  <main>
+
+    <!-- ===== Hero 滿版 ===== -->
+    <section class="hero" id="hero">
+      <div class="page">
+        <div class="hero-copy">
+          <p class="eyebrow">331.fyi的知識宇宙</p>
+          <h1>以筆墨，<br>記錄知識與思緒</h1>
+          <p class="lead">一管筆、一池墨。書寫不只是一種動作，更是一段與自己對話的時光——筆尖落紙的瞬間，字跡裡藏著當時的心緒。</p>
+          <a class="cta" href="https://331.fyi/stationery-pen/index.html" target="_blank" rel="noopener">從文具控到鋼筆控</a>
+</div>
+      </div>
+    </section>
+
+    <!-- ===== 三點隨筆 ===== -->
+    <section class="strip" aria-label="鋼筆二三事">
+      <div class="strip-inner">
+        <div class="fact">
+          <h3>筆尖</h3>
+          <p>金屬的彈性與打磨，決定每一次落筆的觸感與回饋。</p>
+        </div>
+        <div class="fact">
+          <h3>墨道</h3>
+          <p>筆舌與毛細作用，讓墨水均勻而穩定地流向紙面。</p>
+        </div>
+        <div class="fact">
+          <h3>紙感</h3>
+          <p>好紙承接墨韻，筆畫的深淺濃淡得以盡情舒展。</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>一管筆 · 一池墨 · 一盞燈</footer>
+
+  <script>
+    (function(){
+      var hero=document.getElementById('hero');
+      if(!hero) return;
+      requestAnimationFrame(function(){
+        requestAnimationFrame(function(){ hero.classList.add('is-in'); });
+      });
+    })();
+  </script>
+</body>
+</html>

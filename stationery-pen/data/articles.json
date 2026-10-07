@@ -1,0 +1,1860 @@
+{
+ "site": {
+  "name": "世上最強鋼筆百科",
+  "en": "Ultimate Fountain Pen Encyclopedia",
+  "version": "1.1.0",
+  "updated": "2026-10-06",
+  "desc": "以「章節 → 文章」兩層下拉導覽搭配「分類 → 子分類 → 文章」三層網址結構建構的鋼筆知識百科：涵蓋原理、結構、材質、筆尖、上墨、墨水、品牌、選購、保養、歷史、收藏與 DIY。",
+  "lang": "zh-Hant",
+  "rootUrl": "https://example.com/fountain-pen-encyclopedia/"
+ },
+ "updated": "2026-10-06",
+ "articles": [
+  {
+   "slug": "capillary-action",
+   "title": "鋼筆原理：毛細作用介紹",
+   "url": "overview/basics/capillary-action.html",
+   "cat": "概述 › 基礎原理",
+   "tags": [
+    "原理",
+    "毛細作用",
+    "墨水",
+    "筆尖",
+    "入門"
+   ],
+   "difficulty": "初階",
+   "updated": "2026-10-06",
+   "summary": "鋼筆不靠重力、也不靠泵浦，墨水之所以能持續流向筆尖，靠的是毛細作用與氣壓平衡。本文用白話拆解鋼筆的供墨物理，解釋「為什麼墨水不會一次漏光」。",
+   "chapter": "overview",
+   "sub": "basics"
+  },
+  {
+   "slug": "ink-flow-science",
+   "title": "墨水如何流動：從儲墨到紙面的旅程",
+   "url": "overview/basics/ink-flow-science.html",
+   "cat": "概述 › 基礎原理",
+   "tags": [
+    "原理",
+    "墨水",
+    "供墨",
+    "毛細作用",
+    "入門"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "一滴墨水從筆桿深處到紙上的筆畫，要走過儲墨腔、導墨槽、筆舌、筆尖縫與出墨口。本文完整拆解這段供墨旅程，解釋溫度、姿勢與紙張如何影響每一步。",
+   "chapter": "overview",
+   "sub": "basics"
+  },
+  {
+   "slug": "fountain-pen-starter-guide",
+   "title": "鋼筆入門完全指南：從零開始挑選你的第一支鋼筆",
+   "url": "overview/basics/fountain-pen-starter-guide.html",
+   "cat": "概述 › 基礎原理",
+   "tags": [
+    "入門",
+    "選購",
+    "鋼筆基礎",
+    "新手",
+    "導覽"
+   ],
+   "difficulty": "初階",
+   "updated": "2026-10-07",
+   "summary": "第一次接觸鋼筆該從何下手？本文帶你認識鋼筆原理、筆尖尺寸、上墨方式、墨水選擇、預算選購與日常保養的全貌，並連結站內專文，做為挑選第一支鋼筆的完整起點。",
+   "chapter": "overview",
+   "sub": "basics"
+  },
+  {
+   "slug": "vs-ballpoint",
+   "title": "鋼筆 vs 原子筆 vs 鋼珠筆 vs 蘸水筆",
+   "url": "overview/compare/vs-ballpoint.html",
+   "cat": "概述 › 比較定位",
+   "tags": [
+    "比較",
+    "原子筆",
+    "鋼珠筆",
+    "蘸水筆",
+    "選購"
+   ],
+   "difficulty": "初階",
+   "updated": "2026-10-06",
+   "summary": "同樣是筆，鋼筆、原子筆、鋼珠筆與蘸水筆的出墨原理完全不同。本文從供墨、手感、保養與場合四大面向，把四種筆一次講清楚，幫你選對工具。",
+   "chapter": "overview",
+   "sub": "compare"
+  },
+  {
+   "slug": "pros-cons-myths",
+   "title": "鋼筆的優缺點與常見迷思破除",
+   "url": "overview/compare/pros-cons-myths.html",
+   "cat": "概述 › 比較定位",
+   "tags": [
+    "優缺點",
+    "迷思",
+    "入門",
+    "選購",
+    "比較"
+   ],
+   "difficulty": "初階",
+   "updated": "2026-10-06",
+   "summary": "鋼筆既不是「只有收藏家才配用」的奢侈品，也不是「自動寫得漂亮」的魔法筆。本文條列鋼筆真實的優缺點，並破除五個新手最常聽到的迷思。",
+   "chapter": "overview",
+   "sub": "compare"
+  },
+  {
+   "slug": "cap-and-clip",
+   "title": "筆蓋與筆夾：設計、功能與實用細節",
+   "url": "structure/exterior/cap-and-clip.html",
+   "cat": "結構 › 外觀部件",
+   "tags": [
+    "筆蓋",
+    "筆夾",
+    "結構",
+    "氣密",
+    "外觀"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "筆蓋不只是保護筆尖的帽子，它還決定鋼筆的氣密、防乾與攜帶安全；筆夾則是外觀與實用的妥協。本文解析這兩個最容易被忽略的外觀零件。",
+   "chapter": "structure",
+   "sub": "exterior"
+  },
+  {
+   "slug": "barrel-and-grip",
+   "title": "筆桿與筆握：人體工學與造型設計",
+   "url": "structure/exterior/barrel-and-grip.html",
+   "cat": "結構 › 外觀部件",
+   "tags": [
+    "筆桿",
+    "筆握",
+    "人體工學",
+    "外觀",
+    "選購"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "筆桿決定一支筆的視覺與重量，筆握決定你能連續寫多久不手酸。本文從粗細、長短、材質與重心，解析筆桿與筆握如何影響書寫體驗。",
+   "chapter": "structure",
+   "sub": "exterior"
+  },
+  {
+   "slug": "feed-and-channel",
+   "title": "筆舌與供墨溝：鋼筆的心臟",
+   "url": "structure/internals/feed-and-channel.html",
+   "cat": "結構 › 內部機構",
+   "tags": [
+    "筆舌",
+    "供墨溝",
+    "內部結構",
+    "原理",
+    "中階"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "筆舌（feed）藏在筆尖底下，卻是決定下墨節奏的真正主角。本文剖析筆舌的結構、供墨溝、儲墨槽與通氣道，解釋它為何被稱為鋼筆的心臟。",
+   "chapter": "structure",
+   "sub": "internals"
+  },
+  {
+   "slug": "ink-delivery-system",
+   "title": "導墨系統全解析：從儲墨腔到出墨口",
+   "url": "structure/internals/ink-delivery-system.html",
+   "cat": "結構 › 內部機構",
+   "tags": [
+    "導墨系統",
+    "上墨",
+    "儲墨",
+    "內部結構",
+    "中階"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "鋼筆的導墨系統是一條由儲墨腔、上墨介面、筆舌與筆尖縫串成的供墨鏈。本文以系統化視角解析每一段的角色、容錯與常見故障點。",
+   "chapter": "structure",
+   "sub": "internals"
+  },
+  {
+   "slug": "capping-mechanisms",
+   "title": "旋蓋式 vs 按動式 vs 磁吸式：蓋合機制比較",
+   "url": "structure/capping/capping-mechanisms.html",
+   "cat": "結構 › 蓋合機構",
+   "tags": [
+    "筆蓋",
+    "蓋合機制",
+    "旋蓋",
+    "按動",
+    "磁吸",
+    "比較"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "筆蓋怎麼關？旋蓋、直插、按動、磁吸四種蓋合機制，各有氣密、速度與耐用性的取捨。本文用表格與實務觀點，幫你選出最適合自己的蓋合方式。",
+   "chapter": "structure",
+   "sub": "capping"
+  },
+  {
+   "slug": "part-fault-symptoms",
+   "title": "零件故障對應症狀速查表",
+   "url": "structure/diagnosis/part-fault-symptoms.html",
+   "cat": "結構 › 故障診斷",
+   "tags": [
+    "故障診斷",
+    "速查表",
+    "保養",
+    "零件",
+    "實用"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "鋼筆寫不好時，怎麼從症狀反向推敲是哪個零件出問題？本文用一張速查表，把常見症狀、可能原因與處理方式對照排列，讓你開蓋前心裡有底。",
+   "chapter": "structure",
+   "sub": "diagnosis"
+  },
+  {
+   "slug": "resin-body",
+   "title": "樹脂筆桿：最普遍的現代筆身材質",
+   "url": "material/body/resin-body.html",
+   "cat": "材質 › 筆桿材質",
+   "tags": [
+    "筆桿",
+    "樹脂",
+    "材質",
+    "選購",
+    "日常保養"
+   ],
+   "difficulty": "初階",
+   "updated": "2026-10-06",
+   "summary": "樹脂（樹脂壓克力類）是現代鋼筆最常見的筆身材質：輕盈、易塑形、色彩豐富又好保養。本文解析樹脂筆桿的種類、優缺點、保養與選購重點。",
+   "chapter": "material",
+   "sub": "body"
+  },
+  {
+   "slug": "celluloid-body",
+   "title": "賽璐珞：經典老筆的靈魂材質",
+   "url": "material/body/celluloid-body.html",
+   "cat": "材質 › 筆桿材質",
+   "tags": [
+    "賽璐珞",
+    "老筆",
+    "筆桿",
+    "材質",
+    "收藏"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "賽璐珞是 20 世紀上半葉經典鋼筆的靈魂材質：溫潤、光澤獨特、花紋會隨光流動。本文介紹賽璐珞的由來、魅力、老化風險與現代新筆的賽璐珞工藝。",
+   "chapter": "material",
+   "sub": "body"
+  },
+  {
+   "slug": "metal-body",
+   "title": "金屬筆桿：鋁、黃銅、銀與鈦合金",
+   "url": "material/body/metal-body.html",
+   "cat": "材質 › 筆桿材質",
+   "tags": [
+    "金屬筆",
+    "黃銅",
+    "純銀",
+    "鈦",
+    "筆桿",
+    "材質"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "金屬筆桿帶來沈穩的重量與金屬光澤：鋁輕巧、黃銅厚實、純銀高貴、鈦合金親膚。本文比較常見金屬筆身的特性、手感與保養差異。",
+   "chapter": "material",
+   "sub": "body"
+  },
+  {
+   "slug": "natural-body",
+   "title": "木、牛角、琺瑯等特殊筆身材質",
+   "url": "material/body/natural-body.html",
+   "cat": "材質 › 筆桿材質",
+   "tags": [
+    "木筆",
+    "牛角",
+    "大漆",
+    "貝殼",
+    "筆桿",
+    "材質"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "除了樹脂與金屬，木頭、牛角、貝殼、大漆琺瑯等天然材質帶來獨一無二的紋理與手感。本文介紹特殊筆身材質的特色、保養與選購觀念。",
+   "chapter": "material",
+   "sub": "body"
+  },
+  {
+   "slug": "steel-nib-material",
+   "title": "鋼尖：從入門到進階的可靠選擇",
+   "url": "material/nibmetal/steel-nib-material.html",
+   "cat": "材質 › 筆尖材質",
+   "tags": [
+    "鋼尖",
+    "筆尖",
+    "材質",
+    "入門",
+    "選購"
+   ],
+   "difficulty": "初階",
+   "updated": "2026-10-06",
+   "summary": "鋼尖是鋼筆世界裡最被低估的選擇：便宜、硬滑、耐操，從入門筆到高階手工筆都有它的身影。本文解析鋼尖的製程、手感與黃金年代老鋼尖的魅力。",
+   "chapter": "material",
+   "sub": "nibmetal"
+  },
+  {
+   "slug": "gold-nib-material",
+   "title": "金尖：14K 與 18K 的黃金比例之爭",
+   "url": "material/nibmetal/gold-nib-material.html",
+   "cat": "材質 › 筆尖材質",
+   "tags": [
+    "金尖",
+    "14K",
+    "18K",
+    "筆尖",
+    "材質",
+    "選購"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "金尖的 K 數決定軟硬與手感：14K 彈性溫和、18K 軟潤細膩。本文解析黃金比例如何影響筆尖性格，以及該怎麼選適合自己的金尖。",
+   "chapter": "material",
+   "sub": "nibmetal"
+  },
+  {
+   "slug": "platinum-nib-material",
+   "title": "21K 金尖與其他貴金屬筆尖",
+   "url": "material/nibmetal/platinum-nib-material.html",
+   "cat": "材質 › 筆尖材質",
+   "tags": [
+    "21K",
+    "白金",
+    "貴金屬",
+    "筆尖",
+    "材質"
+   ],
+   "difficulty": "進階",
+   "updated": "2026-10-06",
+   "summary": "白金獨家的 21K 金尖軟彈細膩，此外還有白金合金、鈀金、純鈦等少見貴金屬筆尖。本文介紹這些特殊筆尖材質的個性與故事。",
+   "chapter": "material",
+   "sub": "nibmetal"
+  },
+  {
+   "slug": "seal-rubber-aging",
+   "title": "橡膠與矽膠密封件：老化特性與更換",
+   "url": "material/seal/seal-rubber-aging.html",
+   "cat": "材質 › 密封零件",
+   "tags": [
+    "橡膠",
+    "矽膠",
+    "密封",
+    "O環",
+    "保養",
+    "老筆維修"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "鋼筆的密封 O 環、吸墨器活塞墊、墨囊橡膠是最容易被忽略的耗材。本文解釋橡膠為何會老化、症狀有哪些，以及何時該更換。",
+   "chapter": "material",
+   "sub": "seal"
+  },
+  {
+   "slug": "nib-sizes",
+   "title": "筆尖尺寸 EF、F、M、B、BB 全解析",
+   "url": "nib/size/nib-sizes.html",
+   "cat": "筆尖 › 尺寸規格",
+   "tags": [
+    "筆尖",
+    "尺寸",
+    "選購",
+    "對照表"
+   ],
+   "difficulty": "初階",
+   "updated": "2026-10-06",
+   "summary": "EF、F、M、B、BB 這些英文字母代表筆尖的出墨寬度。本文逐一說明各尺寸的筆畫粗細、適用場景與選購建議，並附實用對照表。",
+   "chapter": "nib",
+   "sub": "size"
+  },
+  {
+   "slug": "jp-vs-eu-sizes",
+   "title": "日系 vs 歐系筆尖尺寸差異",
+   "url": "nib/size/jp-vs-eu-sizes.html",
+   "cat": "筆尖 › 尺寸規格",
+   "tags": [
+    "筆尖",
+    "尺寸",
+    "日系",
+    "歐系",
+    "對照表",
+    "選購"
+   ],
+   "difficulty": "初階",
+   "updated": "2026-10-06",
+   "summary": "同樣標著 F，日系筆寫起來可能比歐系還細一號。本文用對照表說明日系與歐系筆尖尺寸的粗細落差、成因與選購對應，避免買錯尺寸。",
+   "chapter": "nib",
+   "sub": "size"
+  },
+  {
+   "slug": "iridium-tipping",
+   "title": "銥粒：銥合金、耐磨原理與打磨",
+   "url": "nib/tipping/iridium-tipping.html",
+   "cat": "筆尖 › 銥粒",
+   "tags": [
+    "銥粒",
+    "筆尖",
+    "材質",
+    "打磨",
+    "耐磨",
+    "入門"
+   ],
+   "difficulty": "初階",
+   "updated": "2026-10-06",
+   "summary": "筆尖最前端那顆小小圆珠，才是真正在紙上摩擦的部分。本文解釋銥粒是什麼、為什麼用耐磨合金、如何打磨出滑順觸感，以及它跟筆尖本體的關係。",
+   "chapter": "nib",
+   "sub": "tipping"
+  },
+  {
+   "slug": "tipping-damage",
+   "title": "崩銥與銥點受損：成因與處理",
+   "url": "nib/tipping/tipping-damage.html",
+   "cat": "筆尖 › 銥粒",
+   "tags": [
+    "銥粒",
+    "筆尖",
+    "故障",
+    "維修",
+    "刮紙",
+    "保養"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "寫字突然開始刮紙、斷墨，有時不是堵筆，而是銥粒崩了一塊。本文整理崩銥的常見成因、外觀辨識、可修與不可修的界線，以及預防之道。",
+   "chapter": "nib",
+   "sub": "tipping"
+  },
+  {
+   "slug": "nib-grinds",
+   "title": "常見打磨：圓滑、刀磨與斜尖",
+   "url": "nib/grinds/nib-grinds.html",
+   "cat": "筆尖 › 打磨",
+   "tags": [
+    "打磨",
+    "筆尖",
+    "刀磨",
+    "斜尖",
+    "書寫手感",
+    "進階"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "同一支筆尖，打磨成不同形狀，寫起來就是兩種人生。本文介紹圓滑尖、刀磨、斜尖等常見打磨的外觀、手感與適合族群，幫你認識打磨的世界。",
+   "chapter": "nib",
+   "sub": "grinds"
+  },
+  {
+   "slug": "stub-italic-nibs",
+   "title": "平尖與美術尖：Stub、Italic 的書寫魅力",
+   "url": "nib/grinds/stub-italic-nibs.html",
+   "cat": "筆尖 › 打磨",
+   "tags": [
+    "平尖",
+    "美術尖",
+    "Stub",
+    "Italic",
+    "英文書法",
+    "色層"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "橫細直粗、頓點分明——平尖鋼筆寫出的英文有種古典手寫的儀式感。本文介紹 Stub、Italic、Music 尖的差異、書寫技巧與適合搭配的墨水。",
+   "chapter": "nib",
+   "sub": "grinds"
+  },
+  {
+   "slug": "flex-soft-nibs",
+   "title": "彈性尖 Flex 與軟尖 Soft Nib 完全指南",
+   "url": "nib/flex/flex-soft-nibs.html",
+   "cat": "筆尖 › 彈性尖",
+   "tags": [
+    "彈性尖",
+    "Flex",
+    "軟尖",
+    "彈性",
+    "金尖",
+    "進階"
+   ],
+   "difficulty": "進階",
+   "updated": "2026-10-06",
+   "summary": "用力寫就分岔、放輕就細——Flex 彈尖帶來蘸水筆般的粗細變化。本文解釋彈尖原理、Flex 與 Soft 的差異、適合誰用，以及使用上的風險。",
+   "chapter": "nib",
+   "sub": "flex"
+  },
+  {
+   "slug": "flow-issues-tuning",
+   "title": "下墨異常成因與 Nib Tuning 基礎",
+   "url": "nib/tuning/flow-issues-tuning.html",
+   "cat": "筆尖 › 問題調校",
+   "tags": [
+    "下墨",
+    "飛白",
+    "刮紙",
+    "nib tuning",
+    "故障",
+    "調校"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "下墨過多暈成一片、下墨過少飛白、刮紙難受——鋼筆八成的「不好寫」都來自供墨與筆尖接觸。本文整理常見症狀成因與 Nib Tuning 的安全調整原則。",
+   "chapter": "nib",
+   "sub": "tuning"
+  },
+  {
+   "slug": "converter-types",
+   "title": "吸墨器種類：活塞、螺旋與壓囊式",
+   "url": "filling/converter/converter-types.html",
+   "cat": "上墨 › 吸墨器",
+   "tags": [
+    "吸墨器",
+    "上墨系統",
+    "活塞",
+    "卡式墨水管",
+    "周邊配件"
+   ],
+   "difficulty": "初階",
+   "updated": "2026-10-06",
+   "summary": "吸墨器（Converter）是讓卡筆改用瓶裝墨水的轉接裝置。本文拆解活塞式、螺旋式與壓囊式三大主流吸墨器的運作方式、容量、優缺點與選購注意事項。",
+   "chapter": "filling",
+   "sub": "converter"
+  },
+  {
+   "slug": "cartridge-guide",
+   "title": "卡式墨水管（墨囊）完全指南",
+   "url": "filling/cartridge/cartridge-guide.html",
+   "cat": "上墨 › 卡式墨水管",
+   "tags": [
+    "墨囊",
+    "卡式墨水管",
+    "上墨系統",
+    "入門",
+    "攜帶"
+   ],
+   "difficulty": "初階",
+   "updated": "2026-10-06",
+   "summary": "卡式墨水管（墨囊／Cartridge）是最輕便的上墨方式，即裝即寫、乾淨好攜帶。本文說明短卡與長卡、國際規格與專用規格的差異，以及使用、保存與搭配吸墨器的技巧。",
+   "chapter": "filling",
+   "sub": "cartridge"
+  },
+  {
+   "slug": "eyedropper-filling",
+   "title": "滴入式上墨：容量之王的日常",
+   "url": "filling/special/eyedropper-filling.html",
+   "cat": "上墨 › 特殊系統",
+   "tags": [
+    "滴入式",
+    "上墨系統",
+    "大容量",
+    "密封",
+    "改造"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "滴入式（Eyedropper）把整根筆桿變成儲墨腔，容量是卡式筆的好幾倍，卻沒有活動零件。本文介紹滴入式的原理、上墨步驟、密封訣竅與日常使用的注意事項。",
+   "chapter": "filling",
+   "sub": "special"
+  },
+  {
+   "slug": "vacuum-filling",
+   "title": "壓力上墨與真空上墨",
+   "url": "filling/special/vacuum-filling.html",
+   "cat": "上墨 › 特殊系統",
+   "tags": [
+    "真空上墨",
+    "壓力上墨",
+    "上墨系統",
+    "大容量",
+    "近代設計"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "壓力上墨與真空上墨是近代才普及的大容量方案：靠一個大活塞在筆桿內製造負壓，一口氣吸入大量墨水。本文解釋兩者差異、操作方式與保養重點。",
+   "chapter": "filling",
+   "sub": "special"
+  },
+  {
+   "slug": "antique-filling-systems",
+   "title": "古董上墨系統：槓桿、按鈕與半月",
+   "url": "filling/special/antique-filling-systems.html",
+   "cat": "上墨 › 特殊系統",
+   "tags": [
+    "古董鋼筆",
+    "老筆",
+    "槓桿上墨",
+    "按鈕上墨",
+    "半月上墨",
+    "收藏"
+   ],
+   "difficulty": "進階",
+   "updated": "2026-10-06",
+   "summary": "在現代活塞與卡式墨水管之前，老鋼筆靠槓桿、按鈕、半月與嗅門等機構擠壓內膽上墨。本文導覽這些古董上墨方式的運作、辨識重點與收藏使用須知。",
+   "chapter": "filling",
+   "sub": "special"
+  },
+  {
+   "slug": "filling-comparison",
+   "title": "上墨系統比較：容量、便利與故障率",
+   "url": "filling/compare/filling-comparison.html",
+   "cat": "上墨 › 比較與清潔",
+   "tags": [
+    "上墨系統",
+    "比較",
+    "對照表",
+    "選購",
+    "容量"
+   ],
+   "difficulty": "初階",
+   "updated": "2026-10-06",
+   "summary": "卡式墨水管、吸墨器、滴入式、真空上墨與古董槓桿上墨，各有容量、便利與可靠度取捨。本文用一張總表與面向分析，幫你選出最適合自己的上墨系統。",
+   "chapter": "filling",
+   "sub": "compare"
+  },
+  {
+   "slug": "filling-cleaning",
+   "title": "上墨系統清潔重點",
+   "url": "filling/compare/filling-cleaning.html",
+   "cat": "上墨 › 比較與清潔",
+   "tags": [
+    "清潔",
+    "保養",
+    "上墨系統",
+    "洗筆",
+    "堵塞"
+   ],
+   "difficulty": "初階",
+   "updated": "2026-10-06",
+   "summary": "不同上墨系統的清潔重點大不相同：墨囊即丟、吸墨器要沖活塞縫、滴入式要洗整根筆桿。本文逐一說明各系統的清洗步驟、頻率與容易卡垢的死角。",
+   "chapter": "filling",
+   "sub": "compare"
+  },
+  {
+   "slug": "dye-inks",
+   "title": "染料墨水：色彩繽紛的日常之選",
+   "url": "ink/types/dye-inks.html",
+   "cat": "墨水 › 墨水種類",
+   "tags": [
+    "墨水",
+    "染料墨水",
+    "種類",
+    "入門",
+    "日常書寫"
+   ],
+   "difficulty": "初階",
+   "updated": "2026-10-06",
+   "summary": "染料墨水溶於水、色彩鮮明、不易堵筆，是鋼筆日常書寫最普遍的選擇。本文解釋它的成分、優缺點、適用場景，並與顏料、鐵膽墨水做比較。",
+   "chapter": "ink",
+   "sub": "types"
+  },
+  {
+   "slug": "pigment-inks",
+   "title": "顏料墨水：防水耐光的進階選擇",
+   "url": "ink/types/pigment-inks.html",
+   "cat": "墨水 › 墨水種類",
+   "tags": [
+    "墨水",
+    "顏料墨水",
+    "防水",
+    "耐光",
+    "進階"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "顏料墨水以固體顏料懸浮著色，寫下的字防水、耐光、不易褪色，是存檔與書法的進階選擇。本文說明其原理、代價，以及使用上的堵筆風險。",
+   "chapter": "ink",
+   "sub": "types"
+  },
+  {
+   "slug": "iron-gall-inks",
+   "title": "鐵膽墨水：經典配方與現代再興",
+   "url": "ink/types/iron-gall-inks.html",
+   "cat": "墨水 › 墨水種類",
+   "tags": [
+    "墨水",
+    "鐵膽墨水",
+    "歷史",
+    "防水",
+    "腐蝕"
+   ],
+   "difficulty": "進階",
+   "updated": "2026-10-06",
+   "summary": "鐵膽墨水以鞣酸鐵生成深黑色字跡，防水、耐久、流傳千年，是文藝復興手抄本的選擇。本文介紹它的歷史、化學機制、與現代鋼筆使用上的腐蝕禁忌。",
+   "chapter": "ink",
+   "sub": "types"
+  },
+  {
+   "slug": "ink-properties",
+   "title": "防水、耐光、潤滑與 pH 值：墨水屬性全解",
+   "url": "ink/properties/ink-properties.html",
+   "cat": "墨水 › 屬性",
+   "tags": [
+    "墨水",
+    "屬性",
+    "防水",
+    "耐光",
+    "pH值",
+    "對照表"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "防水、耐光、乾速、潤滑度與 pH 值，是判斷一瓶墨水適不適合你的五大關鍵。本文用屬性對照表逐一解說，並教你如何依需求挑墨水。",
+   "chapter": "ink",
+   "sub": "properties"
+  },
+  {
+   "slug": "sheen-and-shading",
+   "title": "Sheen、色層與分層：墨水的光影魔法",
+   "url": "ink/properties/sheen-and-shading.html",
+   "cat": "墨水 › 屬性",
+   "tags": [
+    "墨水",
+    "Sheen",
+    "色層",
+    "分層",
+    "光影"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "同一行字，側著光看卻泛起金屬光澤、粗筆畫裡有深淺層次——這就是 Sheen 與色層。本文解釋光影魔法的成因，以及如何用紙張與筆尖把它逼出來。",
+   "chapter": "ink",
+   "sub": "properties"
+  },
+  {
+   "slug": "clogging-and-corrosion",
+   "title": "堵筆、結晶與腐蝕機制",
+   "url": "ink/problems/clogging-and-corrosion.html",
+   "cat": "墨水 › 問題與儲存",
+   "tags": [
+    "墨水",
+    "堵筆",
+    "結晶",
+    "腐蝕",
+    "保養",
+    "故障"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "寫不出來、筆舌卡結晶、金尖長鏽——這些常見墨水問題其實有共同的化學與物理成因。本文拆解堵筆、結晶與腐蝕三種機制，並給預防與處理方法。",
+   "chapter": "ink",
+   "sub": "problems"
+  },
+  {
+   "slug": "mixing-and-storage",
+   "title": "墨水混調禁忌與儲存指南",
+   "url": "ink/problems/mixing-and-storage.html",
+   "cat": "墨水 › 問題與儲存",
+   "tags": [
+    "墨水",
+    "混調",
+    "儲存",
+    "保存",
+    "變色"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "把兩瓶墨水倒在一起調出獨配色，是玩墨人的樂趣，但混錯對象會絮凝沉澱。本文說明混調的安全界線、禁忌組合，以及墨水開瓶後的正確儲存方式。",
+   "chapter": "ink",
+   "sub": "problems"
+  },
+  {
+   "slug": "ink-brand-guide",
+   "title": "墨水品牌導覽：從百利金到 Kobe INK",
+   "url": "ink/brands/ink-brand-guide.html",
+   "cat": "墨水 › 品牌",
+   "tags": [
+    "墨水",
+    "品牌",
+    "百利金",
+    "日系",
+    "選購"
+   ],
+   "difficulty": "初階",
+   "updated": "2026-10-06",
+   "summary": "從德國百利金的經典綠，到日本 Kobe INK 散步系列的城市色——本文條列主流墨水品牌的個性與代表色，幫你在墨水牆前快速找到本命。",
+   "chapter": "ink",
+   "sub": "brands"
+  },
+  {
+   "slug": "starter-daily-pens",
+   "title": "入門鋼筆與日常書寫鋼筆",
+   "url": "category/level/starter-daily-pens.html",
+   "cat": "分類 › 依定位",
+   "tags": [
+    "入門",
+    "日常書寫",
+    "選購",
+    "預算",
+    "鋼尖"
+   ],
+   "difficulty": "初階",
+   "updated": "2026-10-06",
+   "summary": "入門筆不是「廉價筆」的代名詞，而是讓你重新認識書寫樂趣的第一支夥伴。本文區分入門定位與日用定位，說明預算、筆尖、上墨系統與保養門檻，幫你選到第一支能天天帶出門的鋼筆。",
+   "chapter": "category",
+   "sub": "level"
+  },
+  {
+   "slug": "premium-flagship-pens",
+   "title": "高級日用鋼筆與旗艦款",
+   "url": "category/level/premium-flagship-pens.html",
+   "cat": "分類 › 依定位",
+   "tags": [
+    "高級",
+    "旗艦",
+    "金尖",
+    "選購",
+    "收藏"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "從中階金尖到品牌旗艦，高級鋼筆貴在哪？本文拆解高級日用筆與旗艦款的定位差異：筆尖材質、上墨結構、材質工藝與收藏屬性，幫你判斷升級預算該花在哪裡。",
+   "chapter": "category",
+   "sub": "level"
+  },
+  {
+   "slug": "limited-editions",
+   "title": "限量與特別版：收藏迷的目標",
+   "url": "category/form/limited-editions.html",
+   "cat": "分類 › 依形式",
+   "tags": [
+    "限量版",
+    "特別版",
+    "收藏",
+    "編號",
+    "品牌"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "限量版、特別版、年度色、傳奇系列——品牌為何不停推限量？本文拆解限量鋼筆的種類、編號制度、收藏邏輯與投資迷思，讓你買之前先分清楚「設計限量」與「產量限量」。",
+   "chapter": "category",
+   "sub": "form"
+  },
+  {
+   "slug": "travel-short-pens",
+   "title": "旅行短鋼筆與攜帶型設計",
+   "url": "category/form/travel-short-pens.html",
+   "cat": "分類 › 依形式",
+   "tags": [
+    "旅行筆",
+    "短鋼筆",
+    "攜帶",
+    "口袋筆",
+    "墨囊"
+   ],
+   "difficulty": "初階",
+   "updated": "2026-10-06",
+   "summary": "想把鋼筆天天塞進口袋、筆記本或小包包？旅行短鋼筆（口袋筆）是專為攜帶設計的特殊品種。本文介紹短鋼筆的折疊與縮短設計、上墨取捨、密封重點與挑選建議。",
+   "chapter": "category",
+   "sub": "form"
+  },
+  {
+   "slug": "dip-and-vintage-pens",
+   "title": "蘸水筆與復古鋼筆",
+   "url": "category/special/dip-and-vintage-pens.html",
+   "cat": "分類 › 特殊類型",
+   "tags": [
+    "蘸水筆",
+    "老筆",
+    "復古",
+    "古董",
+    "歷史"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "在自來水鋼筆普及之前，人類用蘸水筆寫了好幾世紀；而所謂復古鋼筆，又分為古董老筆與現代復刻兩條路。本文介紹這兩類「不走現代路線」的書寫工具，以及入手前該有的認識。",
+   "chapter": "category",
+   "sub": "special"
+  },
+  {
+   "slug": "calligraphy-pens",
+   "title": "美術書法鋼筆與平尖英文書法筆",
+   "url": "category/special/calligraphy-pens.html",
+   "cat": "分類 › 特殊類型",
+   "tags": [
+    "書法",
+    "平尖",
+    "美術字",
+    "英文書法",
+    "墨水"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "平尖、Stub、Italic、Band、Music Nib——這些筆尖寫出來的字為什麼有稜有角？本文介紹美術書法鋼筆與平尖英文書法筆的原理、適用場景、墨水紙張搭配與入門建議。",
+   "chapter": "category",
+   "sub": "special"
+  },
+  {
+   "slug": "brand-montblanc",
+   "title": "萬寶龍 Montblanc：奢華筆具的代名詞",
+   "url": "brand/europe/brand-montblanc.html",
+   "cat": "品牌 › 歐美品牌",
+   "tags": [
+    "萬寶龍",
+    "歐洲品牌",
+    "奢華筆",
+    "經典筆款",
+    "德國"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "白色六芒星筆夾、黑色樹脂筆身與 146／149 系列，讓萬寶龍成為奢華鋼筆的同義詞。本文回顧品牌歷史、經典筆款、筆尖風格與選購注意事項。",
+   "chapter": "brand",
+   "sub": "europe"
+  },
+  {
+   "slug": "brand-pelikan",
+   "title": "百利金 Pelikan：鵜鶘與綠條紋的傳奇",
+   "url": "brand/europe/brand-pelikan.html",
+   "cat": "品牌 › 歐美品牌",
+   "tags": [
+    "百利金",
+    "Pelikan",
+    "歐洲品牌",
+    "活塞上墨",
+    "德國",
+    "墨水"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "綠黑條紋筆身、透明儲墨窗與经典的活塞上墨，百利金是德國工藝與顏色墨水的代名詞。本文介紹這隻鵜鶘的歷史、M 系列筆款與筆尖風格。",
+   "chapter": "brand",
+   "sub": "europe"
+  },
+  {
+   "slug": "brand-parker",
+   "title": "派克 Parker：從 Duofold 到 51",
+   "url": "brand/europe/brand-parker.html",
+   "cat": "品牌 › 歐美品牌",
+   "tags": [
+    "派克",
+    "Parker",
+    "美國品牌",
+    "Parker51",
+    "復古筆",
+    "經典筆款"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "從紅寶石紅 Big Red 傳奇，到改寫鋼筆史的 Parker 51，美國派克塑造了兩個世代的書寫風潮。本文回顧這家傳奇品牌的黃金年代與今日樣貌。",
+   "chapter": "brand",
+   "sub": "europe"
+  },
+  {
+   "slug": "brand-waterman",
+   "title": "水人 Waterman：現代鋼筆之父",
+   "url": "brand/europe/brand-waterman.html",
+   "cat": "品牌 › 歐美品牌",
+   "tags": [
+    "水人",
+    "Waterman",
+    "法國品牌",
+    "現代鋼筆之父",
+    "經典品牌"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "Louis Waterman 在 1884 年取得可靠供墨鋼筆專利，被譽為「現代鋼筆之父」。本文介紹這個法血統美國品牌的起源、經典款與法式美學。",
+   "chapter": "brand",
+   "sub": "europe"
+  },
+  {
+   "slug": "brand-lamy",
+   "title": "凌美 Lamy：德國設計的當代經典",
+   "url": "brand/europe/brand-lamy.html",
+   "cat": "品牌 › 歐美品牌",
+   "tags": [
+    "凌美",
+    "Lamy",
+    "德國品牌",
+    "入門筆",
+    "現代設計",
+    "Safari"
+   ],
+   "difficulty": "初階",
+   "updated": "2026-10-06",
+   "summary": "消光黑 ABS 筆身、三角形筆夾與那顆醒目的紅色按壓上墨器，Lamy Safari 是無數人第一支鋼筆。本文介紹這家德國設計品牌的故事與全線產品。",
+   "chapter": "brand",
+   "sub": "europe"
+  },
+  {
+   "slug": "brand-italian",
+   "title": "義大利鋼筆：Visconti、Aurora 與 Delta",
+   "url": "brand/europe/brand-italian.html",
+   "cat": "品牌 › 歐美品牌",
+   "tags": [
+    "義大利筆",
+    "Visconti",
+    "Aurora",
+    "Delta",
+    "手工筆",
+    "歐洲品牌"
+   ],
+   "difficulty": "進階",
+   "updated": "2026-10-06",
+   "summary": "彩色樹脂、手工打磨與濃厚的義式工藝美學，讓 Visconti、Aurora、Delta 等義大利品牌成為收藏界的寵兒。本文導覽義系鋼筆的特色與代表品牌。",
+   "chapter": "brand",
+   "sub": "europe"
+  },
+  {
+   "slug": "brand-pilot",
+   "title": "百樂 Pilot：日系鋼筆的中流砥柱",
+   "url": "brand/japan/brand-pilot.html",
+   "cat": "品牌 › 日系品牌",
+   "tags": [
+    "百樂",
+    "Pilot",
+    "日系品牌",
+    "金尖",
+    "入門筆",
+    "寫樂"
+   ],
+   "difficulty": "初階",
+   "updated": "2026-10-06",
+   "summary": "從入門的 78G、日常的 Elite，到頂級 Custom 系列與 14K／18K 金尖，百樂是許多人心中最「萬用」的日系鋼筆。本文完整導覽。",
+   "chapter": "brand",
+   "sub": "japan"
+  },
+  {
+   "slug": "brand-sailor",
+   "title": "寫樂 Sailor：長刀研與硬滑手感",
+   "url": "brand/japan/brand-sailor.html",
+   "cat": "品牌 › 日系品牌",
+   "tags": [
+    "寫樂",
+    "Sailor",
+    "日系品牌",
+    "長刀研",
+    "21K金尖",
+    "筆尖打磨"
+   ],
+   "difficulty": "進階",
+   "updated": "2026-10-06",
+   "summary": "21K 金尖、硬而滑的「スーッ」手感，以及聞名國際的長刀研（Naginata）打磨，寫樂是日系筆中最有個性的存在。本文深入解析。",
+   "chapter": "brand",
+   "sub": "japan"
+  },
+  {
+   "slug": "brand-platinum",
+   "title": "白金 Platinum：3776 與極致的氣密工藝",
+   "url": "brand/japan/brand-platinum.html",
+   "cat": "品牌 › 日系品牌",
+   "tags": [
+    "白金",
+    "Platinum",
+    "日系品牌",
+    "3776",
+    "氣密",
+    "金尖"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "傳奇的 3776 系列、兩年不乾墨的氣密筆蓋，以及「出墨量可調」的創新機構，白金是日系三巨頭中最被低估的工藝派。本文完整導覽。",
+   "chapter": "brand",
+   "sub": "japan"
+  },
+  {
+   "slug": "brand-taiwan",
+   "title": "臺灣品牌：i文具控、TACCIA、TA+D 與 SKB",
+   "url": "brand/taiwan/brand-taiwan.html",
+   "cat": "品牌 › 臺灣與國產",
+   "tags": [
+    "臺灣品牌",
+    "i文具控",
+    "TACCIA",
+    "SKB",
+    "在地品牌"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "從在地代理到自行研發，i文具控、TACCIA、TA+D、SKB 等臺灣品牌與店家，正把這塊土地的手感與設計帶進鋼筆世界。本文導覽。",
+   "chapter": "brand",
+   "sub": "taiwan"
+  },
+  {
+   "slug": "brand-chinese",
+   "title": "國產鋼筆：英雄、永生與弘典",
+   "url": "brand/taiwan/brand-chinese.html",
+   "cat": "品牌 › 臺灣與國產",
+   "tags": [
+    "國產筆",
+    "英雄",
+    "永生",
+    "弘典",
+    "金豪",
+    "平價筆"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "從傳奇的英雄 100、老字號永生，到新興的弘典、金豪，大陸國產鋼筆以極高 CP 值重新進占玩家視野。本文導覽這股國貨崛起潮。",
+   "chapter": "brand",
+   "sub": "taiwan"
+  },
+  {
+   "slug": "brand-bespoke",
+   "title": "獨立手作筆尖工作室與客製化",
+   "url": "brand/taiwan/brand-bespoke.html",
+   "cat": "品牌 › 臺灣與國產",
+   "tags": [
+    "客製化",
+    "手作筆尖",
+    "筆尖調校",
+    "磨尖",
+    "獨立工作室",
+    "進階"
+   ],
+   "difficulty": "進階",
+   "updated": "2026-10-06",
+   "summary": "從磨一支專屬筆尖、配一支獨一無二的筆身，到整支客製訂製，獨立工作室把鋼筆從工業產品變成你的專屬文具。本文帶你認識這條進階路。",
+   "chapter": "brand",
+   "sub": "taiwan"
+  },
+  {
+   "slug": "nib-selection-habit",
+   "title": "依書寫習慣挑筆尖：中文、西文與彈尖",
+   "url": "buy/habit/nib-selection-habit.html",
+   "cat": "選購 › 依書寫習慣",
+   "tags": [
+    "筆尖",
+    "選購",
+    "書寫習慣",
+    "中文",
+    "西文"
+   ],
+   "difficulty": "初階",
+   "updated": "2026-10-06",
+   "summary": "同樣一支鋼筆，寫中文和寫西文需要的筆尖完全不同。本文從書寫語言、字體大小、用力習慣與左手右手出發，教你挑出最順手的筆尖尺寸與打磨。",
+   "chapter": "buy",
+   "sub": "habit"
+  },
+  {
+   "slug": "grip-and-weight",
+   "title": "手型、筆握粗細與重量選擇",
+   "url": "buy/habit/grip-and-weight.html",
+   "cat": "選購 › 依書寫習慣",
+   "tags": [
+    "筆握",
+    "重量",
+    "人體工學",
+    "選購",
+    "手型"
+   ],
+   "difficulty": "初階",
+   "updated": "2026-10-06",
+   "summary": "一支筆順不順手，筆尖只佔一半，另一半在於筆握粗細與重量是否配合你的手型與握法。本文教你依手掌大小、握持姿勢挑對筆身。",
+   "chapter": "buy",
+   "sub": "habit"
+  },
+  {
+   "slug": "budget-entry",
+   "title": "入門預算推薦：新台幣 3,000 元以下",
+   "url": "buy/budget/budget-entry.html",
+   "cat": "選購 › 依預算",
+   "tags": [
+    "入門",
+    "預算",
+    "選購",
+    "新台幣",
+    "新手"
+   ],
+   "difficulty": "初階",
+   "updated": "2026-10-06",
+   "summary": "想入坑鋼筆，不需要一次噴幾萬塊。本文梳理新台幣 3,000 元以下這個入門級距的選擇邏輯、常見筆款類型與避雷重點，幫你花小錢找到第一支好寫的筆。",
+   "chapter": "buy",
+   "sub": "budget"
+  },
+  {
+   "slug": "budget-mid",
+   "title": "中階預算推薦：3,000–10,000 元",
+   "url": "buy/budget/budget-mid.html",
+   "cat": "選購 › 依預算",
+   "tags": [
+    "中階",
+    "預算",
+    "選購",
+    "金尖",
+    "新台幣"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "過了入門關卡，新台幣 3,000–10,000 元這個級距開始看得到金尖、活塞上墨與品牌經典款。本文梳理中階市場的選擇邏輯與升級方向。",
+   "chapter": "buy",
+   "sub": "budget"
+  },
+  {
+   "slug": "budget-premium",
+   "title": "高階與旗艦預算指南",
+   "url": "buy/budget/budget-premium.html",
+   "cat": "選購 › 依預算",
+   "tags": [
+    "高階",
+    "旗艦",
+    "預算",
+    "限量",
+    "收藏"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "上看新台幣一萬元以上的高階與旗艦市場，買的不只是書寫工具，更是工藝、品牌與限量。本文梳理這個級距的選擇邏輯與保值觀念。",
+   "chapter": "buy",
+   "sub": "budget"
+  },
+  {
+   "slug": "secondhand-checklist",
+   "title": "二手庫存老筆選購檢查清單",
+   "url": "buy/secondhand/secondhand-checklist.html",
+   "cat": "選購 › 二手避坑",
+   "tags": [
+    "二手",
+    "老筆",
+    "檢查清單",
+    "選購",
+    "收藏"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "買二手老筆最忌衝動下標。本文提供一張逐項檢查清單，從筆身外觀、筆尖、上墨系統到氣密，帶你把老筆收到手之前先做完整體檢。",
+   "chapter": "buy",
+   "sub": "secondhand"
+  },
+  {
+   "slug": "buying-pitfalls",
+   "title": "假筆、翻新筆與庫存老化筆避坑指南",
+   "url": "buy/secondhand/buying-pitfalls.html",
+   "cat": "選購 › 二手避坑",
+   "tags": [
+    "假筆",
+    "翻新筆",
+    "二手",
+    "避坑",
+    "收藏"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "鋼筆二手市場水很深：假筆、組裝筆、翻新筆與庫存老化筆層出不窮。本文教你辨識這四種坑，以及遇到問題時的自保之道。",
+   "chapter": "buy",
+   "sub": "secondhand"
+  },
+  {
+   "slug": "cleaning-routine",
+   "title": "鋼筆定期清洗流程",
+   "url": "care/cleaning/cleaning-routine.html",
+   "cat": "保養 › 清潔",
+   "tags": [
+    "保養",
+    "清洗",
+    "清潔",
+    "日常保養",
+    "入門"
+   ],
+   "difficulty": "初階",
+   "updated": "2026-10-06",
+   "summary": "鋼筆並非「裝了墨水就不用管」。定期把筆舌、供墨溝與上墨系統裡的殘墨沖乾淨，是維持順暢出水、防止堵筆與漏墨最基本也最有效的保養。本文一步步教你在家完成一次標準清洗。",
+   "chapter": "care",
+   "sub": "cleaning"
+  },
+  {
+   "slug": "cleaning-frequency",
+   "title": "不同墨水與使用頻率的清洗建議",
+   "url": "care/cleaning/cleaning-frequency.html",
+   "cat": "保養 › 清潔",
+   "tags": [
+    "保養",
+    "清洗頻率",
+    "墨水",
+    "對照表",
+    "實務"
+   ],
+   "difficulty": "初階",
+   "updated": "2026-10-06",
+   "summary": "清洗鋼筆的頻率沒有「標準答案」——它取決於你用哪種墨水、寫得多勤、以及環境多熱多潮。本文用一張對照表，把染料墨、顏料墨、鐵膽墨與不同使用習慣的清洗週期一次講清楚。",
+   "chapter": "care",
+   "sub": "cleaning"
+  },
+  {
+   "slug": "leak-troubleshooting",
+   "title": "洩墨、斷墨與筆蓋漏墨處理",
+   "url": "care/issues/leak-troubleshooting.html",
+   "cat": "保養 › 問題處理",
+   "tags": [
+    "保養",
+    "故障",
+    "洩墨",
+    "漏墨",
+    "除錯"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "一開蓋就是一手墨、放進口袋染了襯衫、寫到一半突然斷墨——這些都不是筆壞了，而是氣壓、密封與供墨平衡出了問題。本文教你從環境、筆蓋、筆舌三個方向，一步步找出漏墨與斷墨的元兇。",
+   "chapter": "care",
+   "sub": "issues"
+  },
+  {
+   "slug": "flow-fix",
+   "title": "出水不順與飛白的排查與修正",
+   "url": "care/issues/flow-fix.html",
+   "cat": "保養 › 問題處理",
+   "tags": [
+    "保養",
+    "飛白",
+    "出水",
+    "除錯",
+    "筆尖"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "寫字時筆畫斷斷續續、局部空白、第一筆畫不出來——這就是飛白與出水不順。原因可能是堵塞、筆尖縫偏移、紙墨不搭或握筆角度。本文給你一套由淺入深的排查順序，在家就能自救。",
+   "chapter": "care",
+   "sub": "issues"
+  },
+  {
+   "slug": "parts-replacement",
+   "title": "零件更換與橡膠老化修復",
+   "url": "care/parts/parts-replacement.html",
+   "cat": "保養 › 零件維修",
+   "tags": [
+    "保養",
+    "零件",
+    "橡膠老化",
+    "維修",
+    "O環"
+   ],
+   "difficulty": "進階",
+   "updated": "2026-10-06",
+   "summary": "密封圈硬化、筆夾鬆動、墨囊破裂、上墨皮囊脆化——鋼筆用久了，最先老的往往不是筆尖，而是看不見的橡膠與塑膠件。本文教你辨識老化徵兆、判斷哪些能自己換、哪些該送修。",
+   "chapter": "care",
+   "sub": "parts"
+  },
+  {
+   "slug": "long-term-storage",
+   "title": "長期不使用的保存方法",
+   "url": "care/storage/long-term-storage.html",
+   "cat": "保養 › 保存",
+   "tags": [
+    "保養",
+    "保存",
+    "收納",
+    "長期",
+    "環境"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "出國、懷孕、搬家、換工作——鋼筆難免有幾個月甚至幾年不寫的時候。裝著墨水硬收，只會換回一支堵死、發霉、密封圈老壞的筆。本文教你正確的長期收筆步驟與環境條件。",
+   "chapter": "care",
+   "sub": "storage"
+  },
+  {
+   "slug": "dip-pen-era",
+   "title": "蘸水筆時代：鋼筆的祖先",
+   "url": "history/origin/dip-pen-era.html",
+   "cat": "歷史 › 起源",
+   "tags": [
+    "歷史",
+    "蘸水筆",
+    "起源",
+    "書法",
+    "西洋文具"
+   ],
+   "difficulty": "初階",
+   "updated": "2026-10-06",
+   "summary": "在鋼筆發明之前，歐洲人用了超過一百年的鋼製蘸水筆。它沒有儲墨、沒有供墨系統，卻催生了現代筆尖打磨與西洋書法。本文回顧這段鋼筆的史前史。",
+   "chapter": "history",
+   "sub": "origin"
+  },
+  {
+   "slug": "fountain-pen-birth",
+   "title": "自來水鋼筆的誕生與專利戰",
+   "url": "history/origin/fountain-pen-birth.html",
+   "cat": "歷史 › 起源",
+   "tags": [
+    "歷史",
+    "發明",
+    "專利",
+    "Waterman",
+    "派克"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "1884 年 Waterman 取得第一支實用鋼筆專利，此後三十年歐美陷入上墨系統的專利大戰。本文回顧自來水鋼筆如何從蘸水筆演化而來，以及那段專利廝殺的精彩歷史。",
+   "chapter": "history",
+   "sub": "origin"
+  },
+  {
+   "slug": "golden-age",
+   "title": "黃金年代：1900–1950 的輝煌",
+   "url": "history/golden/golden-age.html",
+   "cat": "歷史 › 黃金年代",
+   "tags": [
+    "歷史",
+    "黃金年代",
+    "賽璐珞",
+    "收藏",
+    "老筆"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "1900 到 1950 年是鋼筆的黃金年代：賽璐珞筆身、金尖、複雜上墨機構百家爭鳴。本文回顧這段鋼筆文明的最高峰，以及它為什麼至今仍是收藏圈的聖地。",
+   "chapter": "history",
+   "sub": "golden"
+  },
+  {
+   "slug": "legendary-models",
+   "title": "傳奇筆款：Parker 51 與它的時代",
+   "url": "history/golden/legendary-models.html",
+   "cat": "歷史 › 黃金年代",
+   "tags": [
+    "歷史",
+    "Parker 51",
+    "傳奇",
+    "派克",
+    "經典款"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "Parker 51 是鋼筆史上最成功的一支筆，1941 年發表後賣了數十年。本文介紹這支傳奇筆款的誕生背景、設計革命與它代表的整個時代。",
+   "chapter": "history",
+   "sub": "golden"
+  },
+  {
+   "slug": "ballpoint-transition",
+   "title": "原子筆興起後的鋼筆轉型",
+   "url": "history/modern/ballpoint-transition.html",
+   "cat": "歷史 › 轉型復興",
+   "tags": [
+    "歷史",
+    "原子筆",
+    "轉型",
+    "現代",
+    "市場"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "1950 年代原子筆席捲大眾市場，鋼筆從「人人必備」被迫轉型。本文回顧這段艱難的轉折期：鋼筆如何從日常工具蛻變為風格、品味與收藏的象徵。",
+   "chapter": "history",
+   "sub": "modern"
+  },
+  {
+   "slug": "modern-revival",
+   "title": "近代鋼筆復興與臺灣市場",
+   "url": "history/modern/modern-revival.html",
+   "cat": "歷史 › 轉型復興",
+   "tags": [
+    "歷史",
+    "復興",
+    "臺灣",
+    "近代",
+    "市場"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "1990 年代至今，鋼筆在全球經歷一場溫和復興，臺灣也形成活躍的愛好者生態系。本文回顧這波復興的背景，以及臺灣鋼筆市場的特色。",
+   "chapter": "history",
+   "sub": "modern"
+  },
+  {
+   "slug": "condition-terms",
+   "title": "品相術語：NOS、二手、修復品與展示品",
+   "url": "collect/condition/condition-terms.html",
+   "cat": "藏家交流 › 品相",
+   "tags": [
+    "品相",
+    "術語",
+    "NOS",
+    "二手",
+    "收藏"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "逛老筆拍賣會看到 NOS、NOSM、Restored、Display Only、MINT……這些英文縮寫到底差在哪？本文整理鋼筆收藏圈最常見的品相術語，讓你下次看商品敘述不再霧煞煞。",
+   "chapter": "collect",
+   "sub": "condition"
+  },
+  {
+   "slug": "grading-system",
+   "title": "品相分級系統與實用評分法",
+   "url": "collect/condition/grading-system.html",
+   "cat": "藏家交流 › 品相",
+   "tags": [
+    "品相",
+    "分級",
+    "評分",
+    "老筆",
+    "收藏"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "NOS、MINT、Excellent、Very Good、Good、Poor——老筆圈常用的分級系統到底對應什麼外觀與功能？本文用一張分級對照表，帶你看懂買賣雙方在談的「狀態」到底是幾成新。",
+   "chapter": "collect",
+   "sub": "condition"
+  },
+  {
+   "slug": "value-factors",
+   "title": "影響價值的因素：年代、限量、狀態與原盒",
+   "url": "collect/value/value-factors.html",
+   "cat": "藏家交流 › 價值",
+   "tags": [
+    "價值",
+    "收藏",
+    "原盒",
+    "限量",
+    "行情"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "為什麼同一款筆，這一支行情翻三倍、那一支無人問？本文拆解影響老筆與限量鋼筆價值的四大要素——年代、稀缺性、狀態與原廠配件，幫你看懂報價背後的邏輯。",
+   "chapter": "collect",
+   "sub": "value"
+  },
+  {
+   "slug": "market-overview",
+   "title": "老筆收藏市場行情概覽",
+   "url": "collect/value/market-overview.html",
+   "cat": "藏家交流 › 價值",
+   "tags": [
+    "老筆",
+    "行情",
+    "市場",
+    "收藏",
+    "二手"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "老筆收藏市場大約分成幾個價位帶？從數千元的入門老筆到數十萬的傳奇款，行情背後有哪些驅動力？本文用分級與市場特性的角度，幫你建立對老筆行情的整體認識。",
+   "chapter": "collect",
+   "sub": "value"
+  },
+  {
+   "slug": "counterfeit-identification",
+   "title": "假筆辨識重點",
+   "url": "collect/identify/counterfeit-identification.html",
+   "cat": "藏家交流 › 鑑定與保存",
+   "tags": [
+    "假筆",
+    "辨識",
+    "二手",
+    "騙局",
+    "收藏"
+   ],
+   "difficulty": "進階",
+   "updated": "2026-10-06",
+   "summary": "萬寶龍、百利金、派克傳奇款的假筆，已經可以做到連細節都幾可亂真。本文整理假筆辨識的重點：筆尖工法、刻印字樣、配重、原盒與來源管道，幫你遠離昂貴雷包。",
+   "chapter": "collect",
+   "sub": "identify"
+  },
+  {
+   "slug": "storage-environment",
+   "title": "存放環境控制：濕度與溫度",
+   "url": "collect/identify/storage-environment.html",
+   "cat": "藏家交流 › 鑑定與保存",
+   "tags": [
+    "保存",
+    "濕度",
+    "溫度",
+    "收藏",
+    "賽璐珞"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "鋼筆收藏不是買回來放在抽屜就好。太乾燥會讓賽璐珞脆化、太潮濕會讓金屬生鏽、溫差大則引發漏墨。本文教你控制收藏環境的濕度、溫度與光線，讓寶貝筆筆長保如新。",
+   "chapter": "collect",
+   "sub": "identify"
+  },
+  {
+   "slug": "diy-tools",
+   "title": "DIY 工具清單與安全提醒",
+   "url": "diy/prep/diy-tools.html",
+   "cat": "DIY › 準備",
+   "tags": [
+    "DIY",
+    "工具",
+    "維修",
+    "安全",
+    "入門準備"
+   ],
+   "difficulty": "初階",
+   "updated": "2026-10-06",
+   "summary": "想自己動手拆筆、調校筆尖或維修上墨系統？先備齊基礎工具並建立安全觀念。本文列出新手入門的工具清單、用途與使用眉角，並強調風險控制。",
+   "chapter": "diy",
+   "sub": "prep"
+  },
+  {
+   "slug": "diy-nib-swap",
+   "title": "筆尖拆裝與簡單打磨",
+   "url": "diy/nibwork/diy-nib-swap.html",
+   "cat": "DIY › 筆尖作業",
+   "tags": [
+    "筆尖",
+    "打磨",
+    "DIY",
+    "拆裝",
+    "刮紙",
+    "調校"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "筆尖分岔、刮紙或想微調手感時，可以自己動手做簡單的筆尖拆裝與打磨。本文說明安全的拆裝步驟、刮紙檢查與微量打磨原則，並提醒何時該停手送修。",
+   "chapter": "diy",
+   "sub": "nibwork"
+  },
+  {
+   "slug": "diy-flex-tuning",
+   "title": "彈尖調整與筆尖矯正",
+   "url": "diy/nibwork/diy-flex-tuning.html",
+   "cat": "DIY › 筆尖作業",
+   "tags": [
+    "彈性尖",
+    "Flex",
+    "筆尖調整",
+    "矯正",
+    "DIY",
+    "風險"
+   ],
+   "difficulty": "進階",
+   "updated": "2026-10-06",
+   "summary": "彈性尖（Flex Nib）的軟硬、回彈與筆觸可以微調；筆尖歪斜或分岔時也能嘗試輕度矯正。本文說明彈尖的特性、調整原則與矯正手法，並強調風險與停損點。",
+   "chapter": "diy",
+   "sub": "nibwork"
+  },
+  {
+   "slug": "diy-filling-repair",
+   "title": "上墨系統維修與替換",
+   "url": "diy/filling/diy-filling-repair.html",
+   "cat": "DIY › 上墨維修",
+   "tags": [
+    "上墨系統",
+    "維修",
+    "密封圈",
+    "內膽",
+    "DIY",
+    "漏墨"
+   ],
+   "difficulty": "進階",
+   "updated": "2026-10-06",
+   "summary": "吸墨器吸不滿、滴入式漏墨、古董內膽老化，都是上墨系統常見故障。本文說明常見故障判斷、可自行處理的維修（換密封圈、重上矽脂）與必須送修的界線。",
+   "chapter": "diy",
+   "sub": "filling"
+  },
+  {
+   "slug": "diy-risks",
+   "title": "改筆風險與不可逆損壞案例",
+   "url": "diy/risk/diy-risks.html",
+   "cat": "DIY › 風險",
+   "tags": [
+    "改筆",
+    "風險",
+    "不可逆",
+    "DIY",
+    "維修",
+    "注意事項"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "改筆（Modding）充滿誘惑，但很多動作一旦做錯就回不去：筆尖刮傷、銥粒崩落、螺紋滑牙、筆桿裂開。本文盤點常見的改筆風險與真實損壞案例，幫你在動手前踩煞車。",
+   "chapter": "diy",
+   "sub": "risk"
+  },
+  {
+   "slug": "term-capillary-feed",
+   "title": "毛細現象與筆舌：核心術語解析",
+   "url": "glossary/core/term-capillary-feed.html",
+   "cat": "詞彙 › 核心術語",
+   "tags": [
+    "術語",
+    "詞彙",
+    "毛細作用",
+    "筆舌",
+    "入門"
+   ],
+   "difficulty": "初階",
+   "updated": "2026-10-06",
+   "summary": "毛細現象、筆舌、供墨溝、通氣孔、儲墨腔——這些名詞是理解鋼筆為何會出墨的最小公分母。本文以中英對照方式，逐一解釋每個術語的定義、由來與彼此關係。",
+   "chapter": "glossary",
+   "sub": "core"
+  },
+  {
+   "slug": "term-iridium-grinds",
+   "title": "銥粒與打磨：術語全攻略",
+   "url": "glossary/core/term-iridium-grinds.html",
+   "cat": "詞彙 › 核心術語",
+   "tags": [
+    "術語",
+    "詞彙",
+    "銥粒",
+    "打磨",
+    "筆尖"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "銥粒、銥點、圓滑尖、刀磨、斜尖、平尖——筆尖末端那小小一粒合金與它的形狀，決定了你寫字時的觸感與線條。本文中英對照解析這些常被搞混的術語。",
+   "chapter": "glossary",
+   "sub": "core"
+  },
+  {
+   "slug": "term-sheen-shading",
+   "title": "色層、Sheen 與分層墨水術語",
+   "url": "glossary/core/term-sheen-shading.html",
+   "cat": "詞彙 › 核心術語",
+   "tags": [
+    "術語",
+    "詞彙",
+    "墨水",
+    "Sheen",
+    "色層"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "Shading、Sheen、Shimmer、Feathering、Bleed Through——這些英文單字決定了你對一支墨水的第一印象。本文把墨水外觀的常見術語中英對照，講清楚它們各自是什麼、怎麼產生。",
+   "chapter": "glossary",
+   "sub": "core"
+  },
+  {
+   "slug": "term-nos",
+   "title": "NOS、NOSM 與庫存筆行話",
+   "url": "glossary/jargon/term-nos.html",
+   "cat": "詞彙 › 行話縮寫",
+   "tags": [
+    "術語",
+    "行話",
+    "二手",
+    "NOS",
+    "收藏"
+   ],
+   "difficulty": "中階",
+   "updated": "2026-10-06",
+   "summary": "在二手鋼筆市場上，你會看到 NOS、NOSM、MIB、B condition 這些英文縮寫，決定一支老筆的價值好幾倍。本文解釋這些行話的真正意思與買賣時要注意的陷阱。",
+   "chapter": "glossary",
+   "sub": "jargon"
+  },
+  {
+   "slug": "term-flex",
+   "title": "Flex、Soft 與彈性術語",
+   "url": "glossary/jargon/term-flex.html",
+   "cat": "詞彙 › 行話縮寫",
+   "tags": [
+    "術語",
+    "行話",
+    "彈性尖",
+    "Flex",
+    "Soft"
+   ],
+   "difficulty": "進階",
+   "updated": "2026-10-06",
+   "summary": "Flex、Soft、Springy、Nail、Pleasant Resist——這些英文用來形容筆尖按下去的反應。它們不是同一件事，搞混了會買錯筆、用錯力。本文把彈性尖圈的行話講清楚。",
+   "chapter": "glossary",
+   "sub": "jargon"
+  },
+  {
+   "slug": "term-abbreviations",
+   "title": "鋼筆圈常見縮寫：EF、EB、OM、BB 等",
+   "url": "glossary/jargon/term-abbreviations.html",
+   "cat": "詞彙 › 行話縮寫",
+   "tags": [
+    "術語",
+    "行話",
+    "縮寫",
+    "筆尖",
+    "對照表"
+   ],
+   "difficulty": "初階",
+   "updated": "2026-10-06",
+   "summary": "EF、F、M、B、BB、OM、OB、Stub、Italic——筆尖上刻的這些英文字母是縮寫大全。本文用一張對照表，把尺寸、打磨、特殊筆尖的常見代號一次整理。",
+   "chapter": "glossary",
+   "sub": "jargon"
+  },
+  {
+   "slug": "nib-spec-table",
+   "title": "筆尖規格對照表",
+   "url": "appendix/tables/nib-spec-table.html",
+   "cat": "附錄 › 對照表",
+   "tags": [
+    "對照表",
+    "筆尖",
+    "尺寸",
+    "選購",
+    "附錄"
+   ],
+   "difficulty": "初階",
+   "updated": "2026-10-06",
+   "summary": "筆尖尺寸、打磨、彈性、材質的快速對照表：EF 到 BB、圓滑到刀磨、鋼尖到 21K，一頁查齊選筆尖需要的關鍵規格。",
+   "chapter": "appendix",
+   "sub": "tables"
+  },
+  {
+   "slug": "ink-property-table",
+   "title": "墨水屬性對照表",
+   "url": "appendix/tables/ink-property-table.html",
+   "cat": "附錄 › 對照表",
+   "tags": [
+    "對照表",
+    "墨水",
+    "染料",
+    "顏料",
+    "鐵膽",
+    "附錄"
+   ],
+   "difficulty": "初階",
+   "updated": "2026-10-06",
+   "summary": "染料、顏料、鐵膽墨水的防水、耐光、pH、潤滑與堵筆風險一次對照。選墨水前先查這張表，避免買錯色。",
+   "chapter": "appendix",
+   "sub": "tables"
+  },
+  {
+   "slug": "care-checklist",
+   "title": "保養檢查清單",
+   "url": "appendix/resources/care-checklist.html",
+   "cat": "附錄 › 資源",
+   "tags": [
+    "保養",
+    "清潔",
+    "檢查清單",
+    "維修",
+    "附錄"
+   ],
+   "difficulty": "初階",
+   "updated": "2026-10-06",
+   "summary": "日常、每季與年度的鋼筆保養檢查清單：清洗頻率、O 環檢查、存放環境與工具準備，照表操課讓筆陪你十年。",
+   "chapter": "appendix",
+   "sub": "resources"
+  },
+  {
+   "slug": "references",
+   "title": "參考文獻與延伸資源",
+   "url": "appendix/resources/references.html",
+   "cat": "附錄 › 資源",
+   "tags": [
+    "參考資料",
+    "書籍",
+    "網站",
+    "社團",
+    "附錄",
+    "學習資源"
+   ],
+   "difficulty": "初階",
+   "updated": "2026-10-06",
+   "summary": "鋼筆學習路上值得收藏的書籍、網站、社團與影片頻道。從入門觀念到老筆修復，這份清單幫你按圖索驥。",
+   "chapter": "appendix",
+   "sub": "resources"
+  },
+  {
+   "slug": "tylee-story",
+   "title": "i文具控：臺灣鋼筆文化的推手",
+   "url": "tylee/about/tylee-story.html",
+   "cat": "i文具控 › 關於i文具控",
+   "tags": [
+    "i文具控",
+    "臺灣品牌",
+    "鋼筆文化",
+    "選店"
+   ],
+   "difficulty": "初階",
+   "updated": "2026-10-06",
+   "summary": "i文具控長期在臺灣推廣鋼筆書寫文化，從引進各國筆款、舉辦試寫活動到培育筆尖調校能量。本文介紹這個品牌的定位與它在臺灣鋼筆圈的角色。",
+   "chapter": "tylee",
+   "sub": "about"
+  }
+ ]
+}
