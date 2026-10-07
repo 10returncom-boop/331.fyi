@@ -202,13 +202,28 @@
   <footer>一管筆 · 一池墨 · 一盞燈</footer>
 
   <script>
-    (function(){
-      var hero=document.getElementById('hero');
-      if(!hero) return;
-      requestAnimationFrame(function(){
-        requestAnimationFrame(function(){ hero.classList.add('is-in'); });
+    /* 全站防複製保護：封鎖右鍵、複製、剪下、文字選取與圖片拖曳（輸入框仍可正常選取） */
+    (function () {
+      var INPUT = /^(INPUT|TEXTAREA|SELECT)$/i;
+      function block(e) { e.preventDefault(); }
+      document.addEventListener('contextmenu', block);
+      document.addEventListener('copy', function (e) { if (e.target && INPUT.test(e.target.tagName)) return; e.preventDefault(); });
+      document.addEventListener('cut', block);
+      document.addEventListener('selectstart', function (e) { if (e.target && INPUT.test(e.target.tagName)) return; e.preventDefault(); });
+      document.addEventListener('dragstart', function (e) { if (e.target && INPUT.test(e.target.tagName)) return; e.preventDefault(); });
+      document.addEventListener('keydown', function (e) {
+        if (!(e.ctrlKey || e.metaKey)) return;
+        if (e.key === 'c' || e.key === 'C' || e.key === 'x' || e.key === 'X') {
+          if (e.target && INPUT.test(e.target.tagName)) return;
+          e.preventDefault();
+        }
       });
     })();
   </script>
+  <style>
+    body { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+    input, textarea, select { -webkit-user-select: text; -moz-user-select: text; -ms-user-select: text; user-select: text; }
+    img { -webkit-user-drag: none; -moz-user-drag: none; user-drag: none; }
+  </style>
 </body>
 </html>
