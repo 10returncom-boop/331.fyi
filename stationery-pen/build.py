@@ -28,6 +28,9 @@ FAVICON = ('data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewB
            '%3Cpath fill=\'%239a7b3c\' d=\'M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04a1 1 0 0 0 0-1.41'
            'l-2.34-2.34a1 1 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z\'/%3E%3C/svg%3E')
 
+# 文章頁標題字尾使用的短站名（首頁/品牌仍用 site.name 全名）
+SHORT_NAME = '從文具控到鋼筆控'
+
 # 每個章節對應的 WebP 配圖（assets/images/<key>.webp）
 CHAPTER_IMG = {
     'overview': 'overview', 'structure': 'structure', 'material': 'material',
@@ -713,7 +716,7 @@ def build(site, force=False):
                     + '</article></main>'
                     + toc_html + '</div>'
                 )
-                write(out_rel, page_html(site, rel, '【鋼筆控】' + title + '｜' + site['site']['name'], desc, out_rel,
+                write(out_rel, page_html(site, rel, '【鋼筆控】' + title + '｜' + SHORT_NAME, desc, out_rel,
                                          crumb, body_html, jld,
                                          {'slug': a['slug'], 'chapter': c['id']}))
                 print('  ✓ %s' % out_rel)
