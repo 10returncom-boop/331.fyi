@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>331.fyi的知識宇宙｜以筆墨，記錄知識與思緒</title>
+<title>知識筆記｜331.fyi</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M4 28 L12 9.5 L19 14.5 L28 4 L28 8 L9.5 28 Z' fill='%23C9A227'/%3E%3Cpath d='M28 4 L19 14.5 L20 16.5 L28 8 Z' fill='%23E3C46D'/%3E%3C/svg%3E">
 <link rel="stylesheet" href="https://miaoda.feishu.cn/fonts/css2?family=Noto+Serif+TC:wght@600;700;900&family=Noto+Sans+TC:wght@300;400;500;700&display=swap">
 <style>
@@ -76,12 +76,21 @@
     margin-bottom:30px;
     max-width:12em;
   }
-  .lead{
-    font-weight:300;
-    font-size:clamp(1rem, 1.4vw, 1.15rem);
-    color:var(--muted);
-    max-width:36em;
-    margin-bottom:44px;
+  .ripple{
+    display:inline-block;
+    background:linear-gradient(90deg,
+      #C9A227 0%, #E3C46D 12%, #FFF3CE 25%, #E3C46D 38%,
+      #C9A227 50%, #E3C46D 62%, #FFF3CE 75%, #E3C46D 88%, #C9A227 100%);
+    background-size:200% 100%;
+    -webkit-background-clip:text;
+    background-clip:text;
+    -webkit-text-fill-color:transparent;
+    color:transparent;
+    animation:rippleWave 3s linear infinite;
+  }
+  @keyframes rippleWave{
+    0%{background-position:0% 0}
+    100%{background-position:200% 0}
   }
   .cta{
     display:inline-block;
@@ -106,31 +115,6 @@
     color:rgba(185,194,212,.72);
   }
 
-  /* ===== 三點隨筆 ===== */
-  .strip-inner{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    max-width:1180px;margin:0 auto;padding:40px 32px;
-    gap:48px;
-    border-top:1px solid var(--line);
-  }
-  .fact{
-    border-top:2px solid var(--gold);
-    padding-top:18px;
-  }
-  .fact h3{
-    font-family:var(--serif);
-    font-weight:700;
-    font-size:1.18rem;
-    letter-spacing:.1em;
-    margin-bottom:10px;
-  }
-  .fact p{
-    font-size:.92rem;
-    font-weight:300;
-    color:var(--muted);
-  }
-
   /* ===== Footer ===== */
   footer{
     text-align:center;
@@ -147,9 +131,6 @@
     .eyebrow{font-size:14px}
     .cta{display:inline-flex;align-items:center;min-height:44px;padding:0 4px}
     .cta-note{font-size:.88rem}
-    .strip-inner{grid-template-columns:1fr;gap:28px}
-    .fact{display:grid;grid-template-columns:120px 1fr;gap:16px;border-top:none;border-left:2px solid var(--gold);padding:4px 0 4px 20px}
-    .fact p{align-self:center}
   }
 
   /* ===== Hero 淡入 ===== */
@@ -171,29 +152,10 @@
     <section class="hero" id="hero">
       <div class="page">
         <div class="hero-copy">
-          <p class="eyebrow">331.fyi的知識宇宙</p>
-          <h1>以筆墨，<br>記錄知識與思緒</h1>
-          <p class="lead">一管筆、一池墨。書寫不只是一種動作，更是一段與自己對話的時光——筆尖落紙的瞬間，字跡裡藏著當時的心緒。</p>
+          <p class="eyebrow">331.fyi</p>
+          <h1>知識<span class="ripple">筆</span>記</h1>
           <a class="cta" href="https://331.fyi/stationery-pen/index.html" target="_blank" rel="noopener">從文具控到鋼筆控</a>
 </div>
-      </div>
-    </section>
-
-    <!-- ===== 三點隨筆 ===== -->
-    <section class="strip" aria-label="鋼筆二三事">
-      <div class="strip-inner">
-        <div class="fact">
-          <h3>筆尖</h3>
-          <p>金屬的彈性與打磨，決定每一次落筆的觸感與回饋。</p>
-        </div>
-        <div class="fact">
-          <h3>墨道</h3>
-          <p>筆舌與毛細作用，讓墨水均勻而穩定地流向紙面。</p>
-        </div>
-        <div class="fact">
-          <h3>紙感</h3>
-          <p>好紙承接墨韻，筆畫的深淺濃淡得以盡情舒展。</p>
-        </div>
       </div>
     </section>
 
