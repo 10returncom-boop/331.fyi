@@ -43,6 +43,7 @@
     position:absolute;
     inset:0;
     background:
+      radial-gradient(ellipse 55% 42% at 50% 50%, rgba(8,12,24,.66), rgba(8,12,24,.20) 62%, rgba(8,12,24,0) 78%),
       linear-gradient(105deg, rgba(8,12,24,.94) 0%, rgba(8,12,24,.74) 42%, rgba(8,12,24,.30) 72%, rgba(8,12,24,.14) 100%),
       linear-gradient(transparent 72%, rgba(8,12,24,.45) 100%);
   }
@@ -131,14 +132,14 @@
   }
 
   /* ===== Hero 淡入 ===== */
-  .hero-copy{opacity:0;transform:translateY(18px)}
+  .hero-copy{transform:translateY(18px)}
   .hero.is-in .hero-copy{
-    opacity:1;transform:none;
-    transition:opacity .9s ease, transform .9s ease;
+    transform:none;
+    transition:transform .9s ease;
   }
   @media (prefers-reduced-motion:reduce){
     html{scroll-behavior:auto}
-    .hero-copy{opacity:1;transform:none}
+    .hero-copy{transform:none}
   }
 </style>
 </head>
