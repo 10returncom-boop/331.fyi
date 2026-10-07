@@ -415,7 +415,8 @@ def page_html(site, rel, title, desc, path, breadcrumb, body_html, jsonlds, curr
     )
     nav = ('<nav class="mainnav" aria-label="主導覽"><div class="mainnav-inner" id="mainNav"></div>'
            '<div class="mega-layer" id="megaLayer"></div></nav>')
-    crumb = '<div class="crumbbar"><div class="crumb-inner">' + breadcrumb + '</div></div>'
+    crumb = ('<div class="crumbbar"><div class="crumb-inner">' + breadcrumb + '</div></div>'
+             if breadcrumb else '')
     footer = (
         '<footer class="footer"><div class="footer-inner">'
         '<div><h4>快速導覽</h4><div class="footer-links">'
@@ -841,7 +842,7 @@ def build(site, force=False):
     # ============ 首頁 ============
     out_rel = 'index.html'
     rel = ''
-    crumb = '<span class="crumb-current">世界總覽</span>'
+    crumb = ''
     hero_stats = ('<div class="hero-stats">'
                   '<div class="hero-stat"><b>' + str(len(flat)) + '</b><span>篇文章</span></div>'
                   '<div class="hero-stat"><b>' + str(len(site['chapters'])) + '</b><span>大章節</span></div>'
