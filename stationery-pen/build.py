@@ -402,7 +402,7 @@ def page_html(site, rel, title, desc, path, breadcrumb, body_html, jsonlds, curr
         '<header class="topbar"><div class="topbar-inner">'
         '<button class="icon-btn menu-toggle" id="menuToggle" aria-label="開啟選單">' + ICON_MENU + '</button>'
         '<a class="brand" href="' + r + 'index.html"><span class="brand-mark">筆</span>'
-        '<span class="brand-titles"><span class="brand-title">從文具控到鋼筆控～這些那些鋼筆知識百科</span></span></a>'
+        '<span class="brand-titles"><span class="brand-title">從文具控到鋼筆控</span></span></a>'
         '<div class="topbar-spacer"></div>'
         '<div class="searchbox">' + ICON_SEARCH + '<input type="text" placeholder="搜尋文章、章節、標籤…" aria-label="全站搜尋" autocomplete="off">'
         '<button class="s-clear" aria-label="清除搜尋">✕</button><div class="search-results"></div></div>'
@@ -431,7 +431,7 @@ def page_html(site, rel, title, desc, path, breadcrumb, body_html, jsonlds, curr
         '<div><h4>熱門標籤</h4><div class="footer-links">'
         + ''.join('<a href="' + r + 'tags/' + tg + '.html">#' + tg + '</a>' for tg in _top_tags(site, 20))
         + '</div></div>'
-        '</div><div class="footer-bottom">© 2026 從文具控到鋼筆控～這些那些鋼筆知識百科 · 內容僅供學習與參考 · 建置於 '
+        '</div><div class="footer-bottom">© 2026 從文具控到鋼筆控 · 內容僅供學習與參考 · 建置於 '
         + site['site']['updated'] + '</div></footer>'
     )
     mobile = (
@@ -849,9 +849,9 @@ def build(site, force=False):
                   '<div class="hero-stat"><b>' + str(len(tag_map)) + '</b><span>標籤</span></div>'
                   '<div class="hero-stat"><b>' + site['site']['version'] + '</b><span>版本</span></div></div>')
     hero = ('<section class="hero"><div class="hero-eyebrow">ULTIMATE FOUNTAIN PEN ENCYCLOPEDIA</div>'
-            '<h1>從文具控到鋼筆控～這些那些鋼筆知識百科</h1>'
+            '<h1>從文具控到鋼筆控</h1>'
             '<p class="hero-sub">從萬寶龍到你手上的那張紙，就是我的天地</p>'
-            + '<figure class="hero-img"><img src="assets/images/home-hero.webp" alt="從文具控到鋼筆控～這些那些鋼筆知識百科" width="1280" height="720"></figure>'
+            + '<figure class="hero-img"><img src="assets/images/home-hero.webp" alt="從文具控到鋼筆控" width="1280" height="720"></figure>'
             + '<div class="hero-search">' + ICON_SEARCH + '<input type="text" placeholder="搜尋文章、章節、標籤…" aria-label="全站搜尋" autocomplete="off">'
             '<div class="search-results"></div></div></section>')
     # 章節群組標籤
@@ -890,7 +890,7 @@ def build(site, force=False):
         '<a href="tags/' + tg + '.html">#' + tg + '</a>' for tg, arts in sorted(tag_map.items(), key=lambda x: -len(x[1]))[:24]) + '</div>'
     body_html = ('<div class="wrap" style="padding-top:26px">' + hero +
                  latest +
-                 '<section><div class="section-title"><h2>從文具控到鋼筆控～這些那些鋼筆知識百科</h2><span class="st-sub">點擊卡片展開章節說明</span></div>'
+                 '<section><div class="section-title"><h2>從文具控到鋼筆控</h2><span class="st-sub">點擊卡片展開章節說明</span></div>'
                  '<div class="grid">' + ch_cards + '</div></section>' +
                  '<section><div class="section-title"><h2>檢索工具</h2></div><div class="sub-list">'
                  '<a class="sub-row" href="az-index.html"><div class="n">A–Z</div><div><div class="t">字母索引</div><div class="d">依英文字母瀏覽全站 103 篇文章</div></div></a>'
