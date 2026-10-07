@@ -4,7 +4,7 @@
   "en": "Ultimate Fountain Pen Encyclopedia",
   "version": "1.1.0",
   "updated": "2026-10-06",
-  "desc": "以「章節 → 文章」兩層下拉導覽搭配「分類 → 子分類 → 文章」三層網址結構建構的鋼筆知識百科：涵蓋原理、結構、材質、筆尖、上墨、墨水、品牌、選購、保養、歷史、收藏與 DIY。",
+  "desc": "以「章節 → 文章」兩層下拉導覽搭配「分類 → 子分類 → 文章」三層網址結構建構的鋼筆知識百科：涵蓋原理、結構、材質、筆尖、上墨、墨水、品牌、選購、保養、歷史、收藏與鋼筆控DIY。",
   "lang": "zh-Hant",
   "rootUrl": "https://331.fyi/stationery-pen/"
  },
@@ -1567,7 +1567,7 @@
    "slug": "diy-tools",
    "title": "DIY 工具清單與安全提醒",
    "url": "diy/prep/diy-tools.html",
-   "cat": "DIY › 準備",
+   "cat": "鋼筆控DIY › 準備",
    "tags": [
     "DIY",
     "工具",
@@ -1585,7 +1585,7 @@
    "slug": "diy-nib-swap",
    "title": "筆尖拆裝與簡單打磨",
    "url": "diy/nibwork/diy-nib-swap.html",
-   "cat": "DIY › 筆尖作業",
+   "cat": "鋼筆控DIY › 筆尖作業",
    "tags": [
     "筆尖",
     "打磨",
@@ -1604,7 +1604,7 @@
    "slug": "diy-flex-tuning",
    "title": "彈尖調整與筆尖矯正",
    "url": "diy/nibwork/diy-flex-tuning.html",
-   "cat": "DIY › 筆尖作業",
+   "cat": "鋼筆控DIY › 筆尖作業",
    "tags": [
     "彈性尖",
     "Flex",
@@ -1623,7 +1623,7 @@
    "slug": "diy-filling-repair",
    "title": "上墨系統維修與替換",
    "url": "diy/filling/diy-filling-repair.html",
-   "cat": "DIY › 上墨維修",
+   "cat": "鋼筆控DIY › 上墨維修",
    "tags": [
     "上墨系統",
     "維修",
@@ -1642,7 +1642,7 @@
    "slug": "diy-risks",
    "title": "改筆風險與不可逆損壞案例",
    "url": "diy/risk/diy-risks.html",
-   "cat": "DIY › 風險",
+   "cat": "鋼筆控DIY › 風險",
    "tags": [
     "改筆",
     "風險",
