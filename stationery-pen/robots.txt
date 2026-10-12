@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://331.fyi/stationery-pen/sitemap.xml
