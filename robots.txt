@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://331.fyi/sitemap_index.xml

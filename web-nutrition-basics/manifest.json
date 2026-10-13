@@ -1,0 +1,16 @@
+{
+  "name": "營養與生活",
+  "short_name": "營養生活",
+  "description": "權威、專業、大白話的營養知識庫",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#fafaf6",
+  "theme_color": "#1f7a4d",
+  "icons": [
+    {
+      "src": "assets/images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

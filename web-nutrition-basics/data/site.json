@@ -1,0 +1,37 @@
+{
+  "site_name": "營養與生活",
+  "site_name_en": "NUTRITION & LIFE",
+  "domain": "https://nutrition.example.com",
+  "og_level": 9,
+  "color_primary": "#1f7a4d",
+  "mode_default": "light",
+  "lang": "zh-Hant",
+  "nav": [
+    {"label": "首頁", "url": "index.html"},
+    {"label": "營養基礎", "url": "nutrition-basics/index.html", "children": [
+      {"label": "蛋白質", "url": "nutrition-basics/style-protein.html"},
+      {"label": "維生素", "url": "nutrition-basics/style-vitamin.html"}
+    ]},
+    {"label": "飲食與疾病", "url": "diet-disease/index.html", "children": [
+      {"label": "糖尿病", "url": "diet-disease/style-diabetes.html"},
+      {"label": "高血壓", "url": "diet-disease/style-hypertension.html"}
+    ]},
+    {"label": "各族群營養", "url": "life-stage/index.html", "children": [
+      {"label": "銀髮族", "url": "life-stage/style-senior.html"},
+      {"label": "孕婦", "url": "life-stage/style-pregnant.html"}
+    ]},
+    {"label": "食材與標示", "url": "food-guide/index.html", "children": [
+      {"label": "營養標示", "url": "food-guide/style-label.html"},
+      {"label": "超級食物", "url": "food-guide/style-superfood.html"}
+    ]},
+    {"label": "生活型態", "url": "lifestyle/index.html", "children": [
+      {"label": "減重", "url": "lifestyle/style-weight.html"},
+      {"label": "斷食", "url": "lifestyle/style-fasting.html"}
+    ]},
+    {"label": "線上課程", "url": "courses/index.html", "children": [
+      {"label": "糖尿病實戰", "url": "courses/style-course-diabetes.html"},
+      {"label": "減重班", "url": "courses/style-course-weight.html"},
+      {"label": "營養基礎", "url": "courses/style-course-basics.html"}
+    ]}
+  ]
+}

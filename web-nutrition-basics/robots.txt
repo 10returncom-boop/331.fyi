@@ -1,0 +1,11 @@
+# 營養與生活 robots.txt
+# 完整規範：https://nutrition.example.com/robots.txt
+
+User-agent: *
+Allow: /
+
+# Sitemap 總索引（GSC 只提交此處）
+Sitemap: https://nutrition.example.com/sitemap-index.xml
+# 子 sitemap：
+#   https://nutrition.example.com/article-sitemap.xml
+#   https://nutrition.example.com/gallery-sitemap.xml

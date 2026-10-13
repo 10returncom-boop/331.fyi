@@ -1,0 +1,1207 @@
+{
+  "categories": [
+    {
+      "id": "all",
+      "label": "全部課程"
+    },
+    {
+      "id": "disease",
+      "label": "疾病飲食"
+    },
+    {
+      "id": "weight",
+      "label": "體重管理"
+    },
+    {
+      "id": "stage",
+      "label": "族群營養"
+    },
+    {
+      "id": "food",
+      "label": "食材應用"
+    },
+    {
+      "id": "lifestyle",
+      "label": "生活型態"
+    }
+  ],
+  "courses": [
+    {
+      "slug": "style-course-diabetes",
+      "title": "糖尿病低GI飲食實戰班",
+      "teacher": "張建國",
+      "teacher_years": 12,
+      "category": "disease",
+      "price_sale": 1100,
+      "price_orig": 2000,
+      "duration_hours": 6,
+      "lessons": 9,
+      "students": 1246,
+      "progress_pct": 120,
+      "badge": "限時優惠",
+      "img": "assets/images/hero-disease.webp",
+      "desc": "8堂課教你觀念落地，外食族也能執行。",
+      "curriculum": [
+        [
+          "01",
+          "實戰食物清單",
+          "32 分鐘"
+        ],
+        [
+          "02",
+          "外食點餐公式",
+          "29 分鐘"
+        ],
+        [
+          "03",
+          "真實案例解析",
+          "48 分鐘"
+        ],
+        [
+          "04",
+          "常見問題 Q&A",
+          "28 分鐘"
+        ],
+        [
+          "05",
+          "進階應用",
+          "46 分鐘"
+        ],
+        [
+          "06",
+          "觀念建立與常見迷思",
+          "48 分鐘"
+        ],
+        [
+          "07",
+          "實戰食物清單",
+          "42 分鐘"
+        ],
+        [
+          "08",
+          "外食點餐公式",
+          "27 分鐘"
+        ],
+        [
+          "09",
+          "真實案例解析",
+          "43 分鐘"
+        ]
+      ]
+    },
+    {
+      "slug": "style-course-weight",
+      "title": "減重不挨餓：熱量赤字",
+      "teacher": "李淑貞",
+      "teacher_years": 10,
+      "category": "weight",
+      "price_sale": 2090,
+      "price_orig": 3800,
+      "duration_hours": 2,
+      "lessons": 3,
+      "students": 503,
+      "progress_pct": 50,
+      "badge": "限時優惠",
+      "img": "assets/images/hero-lifestyle.webp",
+      "desc": "不用斷食不用運到死，建立可長期的飲食習慣。",
+      "curriculum": [
+        [
+          "01",
+          "實戰食物清單",
+          "32 分鐘"
+        ],
+        [
+          "02",
+          "外食點餐公式",
+          "41 分鐘"
+        ],
+        [
+          "03",
+          "真實案例解析",
+          "44 分鐘"
+        ]
+      ]
+    },
+    {
+      "slug": "style-course-basics",
+      "title": "21天飲食健檢",
+      "teacher": "林宜慧",
+      "teacher_years": 11,
+      "category": "stage",
+      "price_sale": 1200,
+      "price_orig": 2000,
+      "duration_hours": 6,
+      "lessons": 9,
+      "students": 2781,
+      "progress_pct": 280,
+      "badge": "熱門",
+      "img": "assets/images/hero-basics.webp",
+      "desc": "三大營養素一次搞懂，看完就知道三餐怎麼配。",
+      "curriculum": [
+        [
+          "01",
+          "實戰食物清單",
+          "32 分鐘"
+        ],
+        [
+          "02",
+          "外食點餐公式",
+          "39 分鐘"
+        ],
+        [
+          "03",
+          "真實案例解析",
+          "43 分鐘"
+        ],
+        [
+          "04",
+          "常見問題 Q&A",
+          "33 分鐘"
+        ],
+        [
+          "05",
+          "進階應用",
+          "50 分鐘"
+        ],
+        [
+          "06",
+          "觀念建立與常見迷思",
+          "25 分鐘"
+        ],
+        [
+          "07",
+          "實戰食物清單",
+          "49 分鐘"
+        ],
+        [
+          "08",
+          "外食點餐公式",
+          "50 分鐘"
+        ],
+        [
+          "09",
+          "真實案例解析",
+          "30 分鐘"
+        ]
+      ]
+    },
+    {
+      "slug": "style-course-senior",
+      "title": "銀髮族防肌少飲食",
+      "teacher": "王美玲",
+      "teacher_years": 15,
+      "category": "food",
+      "price_sale": 0,
+      "price_orig": 3800,
+      "duration_hours": 4,
+      "lessons": 6,
+      "students": 756,
+      "progress_pct": 80,
+      "badge": "免費試聽",
+      "img": "assets/images/hero-lifestage.webp",
+      "desc": "為長輩打造：蛋白質、鈣質、牙口問題全解答。",
+      "curriculum": [
+        [
+          "01",
+          "實戰食物清單",
+          "49 分鐘"
+        ],
+        [
+          "02",
+          "外食點餐公式",
+          "35 分鐘"
+        ],
+        [
+          "03",
+          "真實案例解析",
+          "28 分鐘"
+        ],
+        [
+          "04",
+          "常見問題 Q&A",
+          "27 分鐘"
+        ],
+        [
+          "05",
+          "進階應用",
+          "37 分鐘"
+        ],
+        [
+          "06",
+          "觀念建立與常見迷思",
+          "28 分鐘"
+        ]
+      ]
+    },
+    {
+      "slug": "style-course-05",
+      "title": "超市購物攻略",
+      "teacher": "陳建宏",
+      "teacher_years": 8,
+      "category": "lifestyle",
+      "price_sale": 2080,
+      "price_orig": 3200,
+      "duration_hours": 5,
+      "lessons": 7,
+      "students": 1203,
+      "progress_pct": 120,
+      "badge": "熱賣",
+      "img": "assets/images/hero-food.webp",
+      "desc": "60秒看懂營養標示，買對不買貴。",
+      "curriculum": [
+        [
+          "01",
+          "實戰食物清單",
+          "48 分鐘"
+        ],
+        [
+          "02",
+          "外食點餐公式",
+          "39 分鐘"
+        ],
+        [
+          "03",
+          "真實案例解析",
+          "42 分鐘"
+        ],
+        [
+          "04",
+          "常見問題 Q&A",
+          "28 分鐘"
+        ],
+        [
+          "05",
+          "進階應用",
+          "37 分鐘"
+        ],
+        [
+          "06",
+          "觀念建立與常見迷思",
+          "27 分鐘"
+        ],
+        [
+          "07",
+          "實戰食物清單",
+          "42 分鐘"
+        ]
+      ]
+    },
+    {
+      "slug": "style-course-06",
+      "title": "備孕孕期營養",
+      "teacher": "趙雅芬",
+      "teacher_years": 9,
+      "category": "disease",
+      "price_sale": 2080,
+      "price_orig": 3200,
+      "duration_hours": 5,
+      "lessons": 7,
+      "students": 907,
+      "progress_pct": 90,
+      "badge": "熱賣",
+      "img": "assets/images/hero-home.webp",
+      "desc": "從備孕到哺乳，關鍵營養素什麼時候補。",
+      "curriculum": [
+        [
+          "01",
+          "實戰食物清單",
+          "26 分鐘"
+        ],
+        [
+          "02",
+          "外食點餐公式",
+          "46 分鐘"
+        ],
+        [
+          "03",
+          "真實案例解析",
+          "32 分鐘"
+        ],
+        [
+          "04",
+          "常見問題 Q&A",
+          "49 分鐘"
+        ],
+        [
+          "05",
+          "進階應用",
+          "34 分鐘"
+        ],
+        [
+          "06",
+          "觀念建立與常見迷思",
+          "27 分鐘"
+        ],
+        [
+          "07",
+          "實戰食物清單",
+          "32 分鐘"
+        ]
+      ]
+    },
+    {
+      "slug": "style-course-07",
+      "title": "高血壓減鈉實戰",
+      "teacher": "黃郁婷",
+      "teacher_years": 7,
+      "category": "weight",
+      "price_sale": 1400,
+      "price_orig": 2000,
+      "duration_hours": 4,
+      "lessons": 6,
+      "students": 1977,
+      "progress_pct": 200,
+      "badge": "新人優惠",
+      "img": "assets/images/hero-disease.webp",
+      "desc": "隱形鈉地雷、高鉀食物、外食點餐公式。",
+      "curriculum": [
+        [
+          "01",
+          "實戰食物清單",
+          "30 分鐘"
+        ],
+        [
+          "02",
+          "外食點餐公式",
+          "36 分鐘"
+        ],
+        [
+          "03",
+          "真實案例解析",
+          "36 分鐘"
+        ],
+        [
+          "04",
+          "常見問題 Q&A",
+          "31 分鐘"
+        ],
+        [
+          "05",
+          "進階應用",
+          "46 分鐘"
+        ],
+        [
+          "06",
+          "觀念建立與常見迷思",
+          "33 分鐘"
+        ]
+      ]
+    },
+    {
+      "slug": "style-course-08",
+      "title": "腸道保健與益生菌",
+      "teacher": "吳柏翰",
+      "teacher_years": 13,
+      "category": "stage",
+      "price_sale": 1200,
+      "price_orig": 2000,
+      "duration_hours": 5,
+      "lessons": 7,
+      "students": 3106,
+      "progress_pct": 310,
+      "badge": "限時優惠",
+      "img": "assets/images/hero-lifestyle.webp",
+      "desc": "益生菌怎麼挑、什麼時候吃、什麼時候不用吃。",
+      "curriculum": [
+        [
+          "01",
+          "實戰食物清單",
+          "30 分鐘"
+        ],
+        [
+          "02",
+          "外食點餐公式",
+          "39 分鐘"
+        ],
+        [
+          "03",
+          "真實案例解析",
+          "37 分鐘"
+        ],
+        [
+          "04",
+          "常見問題 Q&A",
+          "33 分鐘"
+        ],
+        [
+          "05",
+          "進階應用",
+          "45 分鐘"
+        ],
+        [
+          "06",
+          "觀念建立與常見迷思",
+          "47 分鐘"
+        ],
+        [
+          "07",
+          "實戰食物清單",
+          "42 分鐘"
+        ]
+      ]
+    },
+    {
+      "slug": "style-course-09",
+      "title": "痛風低普林飲食",
+      "teacher": "張建國",
+      "teacher_years": 12,
+      "category": "food",
+      "price_sale": 1820,
+      "price_orig": 2800,
+      "duration_hours": 2,
+      "lessons": 3,
+      "students": 1058,
+      "progress_pct": 110,
+      "badge": "熱賣",
+      "img": "assets/images/hero-basics.webp",
+      "desc": "認識普林、哪些食物要節制、真實案例。",
+      "curriculum": [
+        [
+          "01",
+          "實戰食物清單",
+          "50 分鐘"
+        ],
+        [
+          "02",
+          "外食點餐公式",
+          "35 分鐘"
+        ],
+        [
+          "03",
+          "真實案例解析",
+          "37 分鐘"
+        ]
+      ]
+    },
+    {
+      "slug": "style-course-10",
+      "title": "高血脂飲食管理",
+      "teacher": "李淑貞",
+      "teacher_years": 10,
+      "category": "lifestyle",
+      "price_sale": 1760,
+      "price_orig": 3200,
+      "duration_hours": 3,
+      "lessons": 4,
+      "students": 2443,
+      "progress_pct": 240,
+      "badge": "新人優惠",
+      "img": "assets/images/hero-lifestage.webp",
+      "desc": "壞膽固醇怎麼降、好油脂怎麼選。",
+      "curriculum": [
+        [
+          "01",
+          "實戰食物清單",
+          "31 分鐘"
+        ],
+        [
+          "02",
+          "外食點餐公式",
+          "45 分鐘"
+        ],
+        [
+          "03",
+          "真實案例解析",
+          "40 分鐘"
+        ],
+        [
+          "04",
+          "常見問題 Q&A",
+          "37 分鐘"
+        ]
+      ]
+    },
+    {
+      "slug": "style-course-11",
+      "title": "兒童成長營養",
+      "teacher": "林宜慧",
+      "teacher_years": 11,
+      "category": "disease",
+      "price_sale": 2280,
+      "price_orig": 3800,
+      "duration_hours": 4,
+      "lessons": 6,
+      "students": 691,
+      "progress_pct": 70,
+      "badge": "限時優惠",
+      "img": "assets/images/hero-food.webp",
+      "desc": "成長期蛋白質、鈣、DHA的關鍵角色。",
+      "curriculum": [
+        [
+          "01",
+          "實戰食物清單",
+          "48 分鐘"
+        ],
+        [
+          "02",
+          "外食點餐公式",
+          "42 分鐘"
+        ],
+        [
+          "03",
+          "真實案例解析",
+          "42 分鐘"
+        ],
+        [
+          "04",
+          "常見問題 Q&A",
+          "33 分鐘"
+        ],
+        [
+          "05",
+          "進階應用",
+          "48 分鐘"
+        ],
+        [
+          "06",
+          "觀念建立與常見迷思",
+          "43 分鐘"
+        ]
+      ]
+    },
+    {
+      "slug": "style-course-12",
+      "title": "更年期飲食調理",
+      "teacher": "王美玲",
+      "teacher_years": 15,
+      "category": "weight",
+      "price_sale": 2660,
+      "price_orig": 3800,
+      "duration_hours": 4,
+      "lessons": 6,
+      "students": 1018,
+      "progress_pct": 100,
+      "badge": "限時優惠",
+      "img": "assets/images/hero-home.webp",
+      "desc": "熱潮紅、失眠、骨質疏鬆的飲食對策。",
+      "curriculum": [
+        [
+          "01",
+          "實戰食物清單",
+          "41 分鐘"
+        ],
+        [
+          "02",
+          "外食點餐公式",
+          "40 分鐘"
+        ],
+        [
+          "03",
+          "真實案例解析",
+          "27 分鐘"
+        ],
+        [
+          "04",
+          "常見問題 Q&A",
+          "49 分鐘"
+        ],
+        [
+          "05",
+          "進階應用",
+          "26 分鐘"
+        ],
+        [
+          "06",
+          "觀念建立與常見迷思",
+          "28 分鐘"
+        ]
+      ]
+    },
+    {
+      "slug": "style-course-13",
+      "title": "運動員增肌飲食",
+      "teacher": "陳建宏",
+      "teacher_years": 8,
+      "category": "stage",
+      "price_sale": 1680,
+      "price_orig": 2800,
+      "duration_hours": 6,
+      "lessons": 9,
+      "students": 1849,
+      "progress_pct": 180,
+      "badge": "熱賣",
+      "img": "assets/images/hero-disease.webp",
+      "desc": "增肌期蛋白質攝取、訓練前後飲食。",
+      "curriculum": [
+        [
+          "01",
+          "實戰食物清單",
+          "37 分鐘"
+        ],
+        [
+          "02",
+          "外食點餐公式",
+          "37 分鐘"
+        ],
+        [
+          "03",
+          "真實案例解析",
+          "44 分鐘"
+        ],
+        [
+          "04",
+          "常見問題 Q&A",
+          "39 分鐘"
+        ],
+        [
+          "05",
+          "進階應用",
+          "41 分鐘"
+        ],
+        [
+          "06",
+          "觀念建立與常見迷思",
+          "33 分鐘"
+        ],
+        [
+          "07",
+          "實戰食物清單",
+          "42 分鐘"
+        ],
+        [
+          "08",
+          "外食點餐公式",
+          "25 分鐘"
+        ],
+        [
+          "09",
+          "真實案例解析",
+          "46 分鐘"
+        ]
+      ]
+    },
+    {
+      "slug": "style-course-14",
+      "title": "外食族211餐盤",
+      "teacher": "趙雅芬",
+      "teacher_years": 9,
+      "category": "food",
+      "price_sale": 1300,
+      "price_orig": 2000,
+      "duration_hours": 6,
+      "lessons": 9,
+      "students": 1513,
+      "progress_pct": 150,
+      "badge": "熱賣",
+      "img": "assets/images/hero-lifestyle.webp",
+      "desc": "便當、超商、火鍋、壽司實戰點餐。",
+      "curriculum": [
+        [
+          "01",
+          "實戰食物清單",
+          "34 分鐘"
+        ],
+        [
+          "02",
+          "外食點餐公式",
+          "38 分鐘"
+        ],
+        [
+          "03",
+          "真實案例解析",
+          "30 分鐘"
+        ],
+        [
+          "04",
+          "常見問題 Q&A",
+          "39 分鐘"
+        ],
+        [
+          "05",
+          "進階應用",
+          "25 分鐘"
+        ],
+        [
+          "06",
+          "觀念建立與常見迷思",
+          "48 分鐘"
+        ],
+        [
+          "07",
+          "實戰食物清單",
+          "48 分鐘"
+        ],
+        [
+          "08",
+          "外食點餐公式",
+          "33 分鐘"
+        ],
+        [
+          "09",
+          "真實案例解析",
+          "41 分鐘"
+        ]
+      ]
+    },
+    {
+      "slug": "style-course-15",
+      "title": "手搖飲代換指南",
+      "teacher": "黃郁婷",
+      "teacher_years": 7,
+      "category": "lifestyle",
+      "price_sale": 1540,
+      "price_orig": 2800,
+      "duration_hours": 6,
+      "lessons": 9,
+      "students": 1342,
+      "progress_pct": 130,
+      "badge": "限時優惠",
+      "img": "assets/images/hero-basics.webp",
+      "desc": "手搖飲熱量地圖、低卡代換清單。",
+      "curriculum": [
+        [
+          "01",
+          "實戰食物清單",
+          "29 分鐘"
+        ],
+        [
+          "02",
+          "外食點餐公式",
+          "36 分鐘"
+        ],
+        [
+          "03",
+          "真實案例解析",
+          "49 分鐘"
+        ],
+        [
+          "04",
+          "常見問題 Q&A",
+          "30 分鐘"
+        ],
+        [
+          "05",
+          "進階應用",
+          "42 分鐘"
+        ],
+        [
+          "06",
+          "觀念建立與常見迷思",
+          "49 分鐘"
+        ],
+        [
+          "07",
+          "實戰食物清單",
+          "41 分鐘"
+        ],
+        [
+          "08",
+          "外食點餐公式",
+          "25 分鐘"
+        ],
+        [
+          "09",
+          "真實案例解析",
+          "44 分鐘"
+        ]
+      ]
+    },
+    {
+      "slug": "style-course-16",
+      "title": "素食蛋白質攻略",
+      "teacher": "吳柏翰",
+      "teacher_years": 13,
+      "category": "disease",
+      "price_sale": 2240,
+      "price_orig": 3200,
+      "duration_hours": 2,
+      "lessons": 3,
+      "students": 578,
+      "progress_pct": 60,
+      "badge": "新人優惠",
+      "img": "assets/images/hero-lifestage.webp",
+      "desc": "素食者蛋白質來源、胺基酸互補。",
+      "curriculum": [
+        [
+          "01",
+          "實戰食物清單",
+          "50 分鐘"
+        ],
+        [
+          "02",
+          "外食點餐公式",
+          "34 分鐘"
+        ],
+        [
+          "03",
+          "真實案例解析",
+          "32 分鐘"
+        ]
+      ]
+    },
+    {
+      "slug": "style-course-17",
+      "title": "低鐵貧血飲食",
+      "teacher": "張建國",
+      "teacher_years": 12,
+      "category": "weight",
+      "price_sale": 1200,
+      "price_orig": 2000,
+      "duration_hours": 5,
+      "lessons": 7,
+      "students": 442,
+      "progress_pct": 40,
+      "badge": "熱賣",
+      "img": "assets/images/hero-food.webp",
+      "desc": "鐵質吸收、維生素C助攻、正餐安排。",
+      "curriculum": [
+        [
+          "01",
+          "實戰食物清單",
+          "48 分鐘"
+        ],
+        [
+          "02",
+          "外食點餐公式",
+          "40 分鐘"
+        ],
+        [
+          "03",
+          "真實案例解析",
+          "27 分鐘"
+        ],
+        [
+          "04",
+          "常見問題 Q&A",
+          "49 分鐘"
+        ],
+        [
+          "05",
+          "進階應用",
+          "42 分鐘"
+        ],
+        [
+          "06",
+          "觀念建立與常見迷思",
+          "49 分鐘"
+        ],
+        [
+          "07",
+          "實戰食物清單",
+          "29 分鐘"
+        ]
+      ]
+    },
+    {
+      "slug": "style-course-18",
+      "title": "過敏兒營養調理",
+      "teacher": "李淑貞",
+      "teacher_years": 10,
+      "category": "stage",
+      "price_sale": 1959,
+      "price_orig": 2800,
+      "duration_hours": 5,
+      "lessons": 7,
+      "students": 796,
+      "progress_pct": 80,
+      "badge": "新人優惠",
+      "img": "assets/images/hero-home.webp",
+      "desc": "食物過敏、異位性皮膚炎的飲食調理。",
+      "curriculum": [
+        [
+          "01",
+          "實戰食物清單",
+          "41 分鐘"
+        ],
+        [
+          "02",
+          "外食點餐公式",
+          "44 分鐘"
+        ],
+        [
+          "03",
+          "真實案例解析",
+          "38 分鐘"
+        ],
+        [
+          "04",
+          "常見問題 Q&A",
+          "31 分鐘"
+        ],
+        [
+          "05",
+          "進階應用",
+          "42 分鐘"
+        ],
+        [
+          "06",
+          "觀念建立與常見迷思",
+          "49 分鐘"
+        ],
+        [
+          "07",
+          "實戰食物清單",
+          "48 分鐘"
+        ]
+      ]
+    },
+    {
+      "slug": "style-course-19",
+      "title": "脂肪肝逆轉飲食",
+      "teacher": "林宜慧",
+      "teacher_years": 11,
+      "category": "food",
+      "price_sale": 1820,
+      "price_orig": 2800,
+      "duration_hours": 4.5,
+      "lessons": 6,
+      "students": 2871,
+      "progress_pct": 290,
+      "badge": "新人優惠",
+      "img": "assets/images/hero-disease.webp",
+      "desc": "脂肪肝怎麼吃、多少运动才夠。",
+      "curriculum": [
+        [
+          "01",
+          "實戰食物清單",
+          "39 分鐘"
+        ],
+        [
+          "02",
+          "外食點餐公式",
+          "41 分鐘"
+        ],
+        [
+          "03",
+          "真實案例解析",
+          "39 分鐘"
+        ],
+        [
+          "04",
+          "常見問題 Q&A",
+          "28 分鐘"
+        ],
+        [
+          "05",
+          "進階應用",
+          "32 分鐘"
+        ],
+        [
+          "06",
+          "觀念建立與常見迷思",
+          "32 分鐘"
+        ]
+      ]
+    },
+    {
+      "slug": "style-course-20",
+      "title": "半夜偷吃剋星",
+      "teacher": "王美玲",
+      "teacher_years": 15,
+      "category": "lifestyle",
+      "price_sale": 1300,
+      "price_orig": 2000,
+      "duration_hours": 2,
+      "lessons": 3,
+      "students": 2529,
+      "progress_pct": 250,
+      "badge": "限時優惠",
+      "img": "assets/images/hero-lifestyle.webp",
+      "desc": "半夜想吃東西的心理與生理對策。",
+      "curriculum": [
+        [
+          "01",
+          "實戰食物清單",
+          "43 分鐘"
+        ],
+        [
+          "02",
+          "外食點餐公式",
+          "32 分鐘"
+        ],
+        [
+          "03",
+          "真實案例解析",
+          "25 分鐘"
+        ]
+      ]
+    },
+    {
+      "slug": "style-course-21",
+      "title": "減醣168斷食",
+      "teacher": "陳建宏",
+      "teacher_years": 8,
+      "category": "disease",
+      "price_sale": 1100,
+      "price_orig": 2000,
+      "duration_hours": 3,
+      "lessons": 4,
+      "students": 396,
+      "progress_pct": 40,
+      "badge": "熱賣",
+      "img": "assets/images/hero-basics.webp",
+      "desc": "168斷食的正確做法、常見錯誤。",
+      "curriculum": [
+        [
+          "01",
+          "實戰食物清單",
+          "35 分鐘"
+        ],
+        [
+          "02",
+          "外食點餐公式",
+          "27 分鐘"
+        ],
+        [
+          "03",
+          "真實案例解析",
+          "41 分鐘"
+        ],
+        [
+          "04",
+          "常見問題 Q&A",
+          "32 分鐘"
+        ]
+      ]
+    },
+    {
+      "slug": "style-course-22",
+      "title": "胃食道逆流飲食",
+      "teacher": "趙雅芬",
+      "teacher_years": 9,
+      "category": "weight",
+      "price_sale": 2240,
+      "price_orig": 3200,
+      "duration_hours": 3,
+      "lessons": 4,
+      "students": 2328,
+      "progress_pct": 230,
+      "badge": "限時優惠",
+      "img": "assets/images/hero-lifestage.webp",
+      "desc": "戒夜食、胃排空、低刺激食物清單。",
+      "curriculum": [
+        [
+          "01",
+          "實戰食物清單",
+          "48 分鐘"
+        ],
+        [
+          "02",
+          "外食點餐公式",
+          "43 分鐘"
+        ],
+        [
+          "03",
+          "真實案例解析",
+          "43 分鐘"
+        ],
+        [
+          "04",
+          "常見問題 Q&A",
+          "40 分鐘"
+        ]
+      ]
+    },
+    {
+      "slug": "style-course-23",
+      "title": "骨質疏鬆補鈣",
+      "teacher": "黃郁婷",
+      "teacher_years": 7,
+      "category": "stage",
+      "price_sale": 1959,
+      "price_orig": 2800,
+      "duration_hours": 4.5,
+      "lessons": 6,
+      "students": 899,
+      "progress_pct": 90,
+      "badge": "熱賣",
+      "img": "assets/images/hero-food.webp",
+      "desc": "鈣質吸收率、維生素D、日常補鈣食物。",
+      "curriculum": [
+        [
+          "01",
+          "實戰食物清單",
+          "28 分鐘"
+        ],
+        [
+          "02",
+          "外食點餐公式",
+          "46 分鐘"
+        ],
+        [
+          "03",
+          "真實案例解析",
+          "38 分鐘"
+        ],
+        [
+          "04",
+          "常見問題 Q&A",
+          "36 分鐘"
+        ],
+        [
+          "05",
+          "進階應用",
+          "38 分鐘"
+        ],
+        [
+          "06",
+          "觀念建立與常見迷思",
+          "38 分鐘"
+        ]
+      ]
+    },
+    {
+      "slug": "style-course-24",
+      "title": "便秘膳食纖維實戰",
+      "teacher": "吳柏翰",
+      "teacher_years": 13,
+      "category": "food",
+      "price_sale": 2090,
+      "price_orig": 3800,
+      "duration_hours": 6,
+      "lessons": 9,
+      "students": 2796,
+      "progress_pct": 280,
+      "badge": "熱賣",
+      "img": "assets/images/hero-home.webp",
+      "desc": "膳食纖維怎麼吃、喝水量、益生菌搭配。",
+      "curriculum": [
+        [
+          "01",
+          "實戰食物清單",
+          "26 分鐘"
+        ],
+        [
+          "02",
+          "外食點餐公式",
+          "37 分鐘"
+        ],
+        [
+          "03",
+          "真實案例解析",
+          "48 分鐘"
+        ],
+        [
+          "04",
+          "常見問題 Q&A",
+          "35 分鐘"
+        ],
+        [
+          "05",
+          "進階應用",
+          "50 分鐘"
+        ],
+        [
+          "06",
+          "觀念建立與常見迷思",
+          "28 分鐘"
+        ],
+        [
+          "07",
+          "實戰食物清單",
+          "32 分鐘"
+        ],
+        [
+          "08",
+          "外食點餐公式",
+          "31 分鐘"
+        ],
+        [
+          "09",
+          "真實案例解析",
+          "31 分鐘"
+        ]
+      ]
+    }
+  ]
+}
