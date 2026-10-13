@@ -91,10 +91,10 @@ p { margin: 0 0 1em; }
   content: ""; position: absolute; inset: 0; z-index: 1;
   background: radial-gradient(ellipse 60% 50% at 80% 20%, rgba(255,255,255,.10), transparent 60%);
 }
-.hero > .container { position: relative; z-index: 2; width: 100%; padding: 60px 0; }
+.hero > .container { position: relative; z-index: 2; width: 100%; padding: 60px 0; text-align: center; }
 .hero h1 { color: #fff; font-size: 2.4rem; line-height: 1.2; text-shadow: 0 2px 12px rgba(0,0,0,.3); }
-.hero p.lead { font-size: 1.15rem; max-width: 680px; color: rgba(255,255,255,.95); margin-top: 14px; }
-.hero-tags { margin-top: 20px; display: flex; flex-wrap: wrap; gap: 8px; }
+.hero p.lead { font-size: 1.15rem; max-width: 680px; margin: 14px auto 0; color: rgba(255,255,255,.95); }
+.hero-tags { margin-top: 20px; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
 .hero-tags .tag { background: rgba(255,255,255,.15); color: #fff; border: 1px solid rgba(255,255,255,.3); backdrop-filter: blur(4px); }
 .hero-eyebrow { font-size: .85rem; letter-spacing: .3em; color: var(--c-accent-light); margin-bottom: 12px; }
 
@@ -246,6 +246,9 @@ table.data th { background: var(--c-bg-soft); font-weight: 700; }
   .card-grid { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr; }
   body { font-size: 15px; }
+  .hero > .container { padding: 44px 18px; }
+  .hero h1 { font-size: 1.7rem; }
+  .container { padding: 0 16px; }
 }
 
 /* ---------- 16. 列印 ---------- */

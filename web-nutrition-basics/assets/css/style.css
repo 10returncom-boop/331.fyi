@@ -118,12 +118,12 @@ p { margin: 0 0 1em; }
   content: ""; position: absolute; inset: 0; z-index: 1;
   background: linear-gradient(135deg, rgba(10,40,25,.75) 0%, rgba(20,60,40,.4) 60%, rgba(31,122,77,.15) 100%);
 }
-.hero > .container { position: relative; z-index: 2; width: 100%; padding: 60px 0; }
+.hero > .container { position: relative; z-index: 2; width: 100%; padding: 60px 0; text-align: center; }
 .hero h1 { color: #fff; font-size: 2.4rem; line-height: 1.2; text-shadow: 0 2px 12px rgba(0,0,0,.3); }
-.hero p.lead { font-size: 1.15rem; max-width: 640px; color: rgba(255,255,255,.95); margin-top: 14px; }
+.hero p.lead { font-size: 1.15rem; max-width: 640px; margin: 14px auto 0; color: rgba(255,255,255,.95); }
 .hero-grid { display: block; }
 .hero-img { display: none; }
-.hero-tags { margin-top: 20px; display: flex; flex-wrap: wrap; gap: 8px; }
+.hero-tags { margin-top: 20px; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
 .hero-tags .tag { background: rgba(255,255,255,.15); color: #fff; border: 1px solid rgba(255,255,255,.3); backdrop-filter: blur(4px); }
 
 /* ---------- 4. 麵包屑 ---------- */
@@ -279,6 +279,9 @@ table.data th { background: var(--c-bg-soft); font-weight: 700; }
   .card-grid, .related-list { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr; }
   body { font-size: 15px; }
+  .hero > .container { padding: 44px 18px; }
+  .hero h1 { font-size: 1.7rem; }
+  .container { padding: 0 16px; }
 }
 
 /* =========================================================
