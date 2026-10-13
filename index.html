@@ -170,6 +170,12 @@
   .index-list a:hover{color:var(--gold-bright);border-bottom-color:var(--gold)}
   .index-count{margin-top:20px;color:rgba(185,194,212,.6);font-size:.8rem;letter-spacing:.08em}
 
+  /* ===== 全版文字置中 ===== */
+  .index-section,.index-card{text-align:center}
+  .index-group-title{justify-content:center}
+  .index-list li{justify-content:center;text-align:center}
+  .index-list .dir{margin-right:2px}
+
   /* ===== Footer ===== */
   footer{
     text-align:center;
@@ -202,9 +208,17 @@
 
 <!-- ===== 手作手感知識筆記（追加內容）scoped 樣式 ===== -->
 <style>
-  .hl{--green:#7CC576;--blue:#7FB6E8;color:var(--paper)}
+  .hl{--green:#7CC576;--blue:#7FB6E8;color:var(--paper);text-align:center}
   .hl a{color:var(--gold-soft);text-decoration:none}
   .hl .wrap{width:100%;max-width:1160px;margin:0 auto;padding:0 24px}
+  .hl .sec-head{text-align:center}
+  .hl .sec-sub{margin:10px auto 0}
+  .hl .course-card{text-align:center}
+  .hl .cc-desc{margin:0 auto 20px}
+  .hl .cc-pills{justify-content:center}
+  .hl .steps{text-align:center}
+  .hl .acc-body .acc-inner{text-align:center}
+  .hl .map-card{text-align:center}
 
   /* Hero（追加版改為一般橫幅，不滿版） */
   .hl .hero{position:relative;min-height:auto;overflow:hidden;background:none;padding:60px 0 36px}
