@@ -142,6 +142,7 @@
     .course-card.blue::before{background:radial-gradient(circle at 85% 15%,var(--blue),transparent 45%)}
     .course-card:hover{transform:translateY(-6px);box-shadow:0 20px 44px rgba(0,0,0,.42)}
     .course-card:hover::before{opacity:.26}
+    .course-card .cc-thumb{position:relative;z-index:1;display:block;width:calc(100% + 64px);margin:-32px -32px 22px;height:auto;aspect-ratio:16/9;object-fit:cover;border-top-left-radius:19px;border-top-right-radius:19px}
     .cc-inner{position:relative;z-index:1}
     .cc-kicker{font-size:.76rem;letter-spacing:.26em;color:var(--gold-soft);margin-bottom:12px;font-weight:500}
     .cc-title{font-family:var(--serif);font-size:clamp(1.5rem,2.6vw,2rem);font-weight:900;margin-bottom:12px}
@@ -283,6 +284,7 @@
       <a class="course-card green" href="../web-nutrition-basics/index.html">
         <!-- 連結指向 +331.fyi 同專案下的 web-nutrition-basics（相對路徑，隨站部署即生效）。 -->
         <span class="cc-num">01</span>
+        <img class="cc-thumb" src="../assets/cc-nutrition.webp" alt="fyi 營養綠手指 — 一日三餐的均衡營養">
         <div class="cc-inner">
           <p class="cc-kicker">NUTRITION BY HAND</p>
           <h3 class="cc-title">fyi 營養綠手指</h3>
@@ -297,6 +299,7 @@
       <!-- 有AI了還有學甚麼? -->
       <a class="course-card blue" href="../ai-seo-geo-aeo/index.html">
         <span class="cc-num">02</span>
+        <img class="cc-thumb" src="../assets/cc-ai.webp" alt="有AI了還有學甚麼? — AI 時代的數位手感">
         <div class="cc-inner">
           <p class="cc-kicker">DIGITAL CRAFT IN THE AI AGE</p>
           <h3 class="cc-title">有AI了還有學甚麼?</h3>
