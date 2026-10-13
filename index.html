@@ -27,13 +27,13 @@
 <link rel="stylesheet" href="https://miaoda.feishu.cn/fonts/css2?family=Noto+Serif+TC:wght@600;700;900&family=Noto+Sans+TC:wght@300;400;500;700&display=swap">
 <style>
   :root{
-    --bg:#0B1120;
+    --bg:#FFF8EC;
     --gold:#C9A227;
-    --gold-soft:#E3C46D;
-    --gold-bright:#FFF3CE;
-    --paper:#F2ECDF;
-    --muted:#B9C2D4;
-    --line:rgba(201,162,39,.32);
+    --gold-soft:#A97814;
+    --gold-bright:#C9A227;
+    --paper:#26334D;
+    --muted:#5E6A80;
+    --line:rgba(201,162,39,.30);
     --serif:"Noto Serif TC","Songti TC","PMingLiU",serif;
     --sans:"Noto Sans TC","Microsoft JhengHei","微軟正黑體",sans-serif;
   }
@@ -63,9 +63,9 @@
     position:absolute;
     inset:0;
     background:
-      radial-gradient(ellipse 55% 42% at 50% 50%, rgba(8,12,24,.66), rgba(8,12,24,.20) 62%, rgba(8,12,24,0) 78%),
-      linear-gradient(105deg, rgba(8,12,24,.94) 0%, rgba(8,12,24,.74) 42%, rgba(8,12,24,.30) 72%, rgba(8,12,24,.14) 100%),
-      linear-gradient(transparent 72%, rgba(8,12,24,.45) 100%);
+      radial-gradient(ellipse 55% 42% at 50% 50%, rgba(255,247,232,.66), rgba(255,247,232,.20) 62%, rgba(255,247,232,0) 78%),
+      linear-gradient(105deg, rgba(255,247,232,.94) 0%, rgba(255,247,232,.74) 42%, rgba(255,247,232,.30) 72%, rgba(255,247,232,.14) 100%),
+      linear-gradient(transparent 72%, rgba(255,247,232,.45) 100%);
   }
   .hero-copy{
     position:relative;
@@ -96,8 +96,8 @@
   .ripple{
     display:inline-block;
     background:linear-gradient(90deg,
-      #C9A227 0%, #E3C46D 12%, #FFF3CE 25%, #E3C46D 38%,
-      #C9A227 50%, #E3C46D 62%, #FFF3CE 75%, #E3C46D 88%, #C9A227 100%);
+      #C9A227 0%, #E3C46D 12%, #C9A227 25%, #E3C46D 38%,
+      #C9A227 50%, #E3C46D 62%, #C9A227 75%, #E3C46D 88%, #C9A227 100%);
     background-size:200% 100%;
     -webkit-background-clip:text;
     background-clip:text;
@@ -115,7 +115,7 @@
     height:auto;
     display:block;
     margin:0 auto;
-    filter:drop-shadow(0 8px 28px rgba(0,0,0,.55));
+    filter:drop-shadow(0 8px 28px rgba(120,90,40,.32));
   }
   .cta{
     display:inline-block;
@@ -136,7 +136,7 @@
   .cta-note{
     margin-top:14px;
     font-size:.85rem;
-    color:rgba(185,194,212,.72);
+    color:rgba(94,106,128,.78);
   }
   .cta-list{
     margin-top:30px;
@@ -153,7 +153,7 @@
     padding:40px 24px 52px;
     font-size:.88rem;
     letter-spacing:.22em;
-    color:rgba(185,194,212,.62);
+    color:rgba(94,106,128,.72);
   }
 
   /* ===== Responsive ===== */
@@ -179,7 +179,7 @@
 
 <!-- ===== 手作手感知識筆記（追加內容）scoped 樣式 ===== -->
 <style>
-  .hl{--green:#7CC576;--blue:#7FB6E8;color:var(--paper);text-align:center}
+  .hl{--green:#3C8A4E;--blue:#2E6FB6;color:var(--paper);text-align:center}
   .hl a{color:var(--gold-soft);text-decoration:none}
   .hl .wrap{width:100%;max-width:1160px;margin:0 auto;padding:0 24px}
   .hl .sec-head{text-align:center}
@@ -196,17 +196,17 @@
   .hl .hero::before{content:"";position:absolute;inset:0;
     background:radial-gradient(ellipse 60% 45% at 50% 42%,rgba(201,162,39,.10),transparent 65%),
     radial-gradient(ellipse 45% 40% at 12% 18%,rgba(127,182,232,.10),transparent 60%),
-    linear-gradient(180deg,#0B1120 0%,#101a30 60%,#0B1120 100%);}
+    linear-gradient(180deg,#FFF3DE 0%,#FFF9EF 60%,#FFF3DE 100%);}
   .hl .hero .wrap{position:relative;z-index:1;text-align:center;padding:40px 24px}
   .hl .eyebrow{font-size:13px;letter-spacing:.34em;color:var(--gold-soft);margin-bottom:22px;display:flex;align-items:center;justify-content:center;gap:14px}
   .hl .eyebrow::before,.hl .eyebrow::after{content:"";width:34px;height:1px;background:linear-gradient(90deg,transparent,var(--gold));}
   .hl .eyebrow::after{background:linear-gradient(90deg,var(--gold),transparent)}
   .hl h1.title{font-family:var(--serif);font-weight:900;font-size:clamp(2rem,4.6vw,3.4rem);line-height:1.22;letter-spacing:.04em;margin-bottom:24px}
-  .hl h1 .ripple{display:inline-block;background:linear-gradient(90deg,#C9A227 0%,#E3C46D 12%,#FFF3CE 25%,#E3C46D 38%,#C9A227 50%,#E3C46D 62%,#FFF3CE 75%,#E3C46D 88%,#C9A227 100%);background-size:200% 100%;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent;animation:rippleWave 3.2s linear infinite}
+  .hl h1 .ripple{display:inline-block;background:linear-gradient(90deg,#C9A227 0%,#E3C46D 12%,#C9A227 25%,#E3C46D 38%,#C9A227 50%,#E3C46D 62%,#C9A227 75%,#E3C46D 88%,#C9A227 100%);background-size:200% 100%;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent;animation:rippleWave 3.2s linear infinite}
   .hl .hero .lead{font-size:1.18rem;color:var(--muted);max-width:760px;margin:0 auto 26px;font-weight:300}
   .hl .hero-tags{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
   .hl .tag{padding:5px 14px;border-radius:999px;font-size:.82rem;border:1px solid var(--line);color:var(--gold-soft);background:rgba(201,162,39,.08)}
-  .hl .scroll-hint{margin-top:40px;color:rgba(185,194,212,.5);font-size:.8rem;letter-spacing:.2em}
+  .hl .scroll-hint{margin-top:40px;color:rgba(94,106,128,.7);font-size:.8rem;letter-spacing:.2em}
 
   /* 區塊標題 */
   .hl .section{padding:56px 0}
@@ -217,34 +217,34 @@
 
   /* 三句箴言 */
   .hl .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-  .hl .philosophy{background:linear-gradient(180deg,rgba(255,255,255,.03),rgba(255,255,255,.01));border:1px solid var(--line);border-radius:16px;padding:26px;text-align:center;transition:transform .2s,box-shadow .2s;position:relative;overflow:hidden}
-  .hl .philosophy:hover{transform:translateY(-4px);box-shadow:0 14px 34px rgba(0,0,0,.35)}
+  .hl .philosophy{background:linear-gradient(180deg,rgba(255,250,240,.92),rgba(255,250,240,.62));border:1px solid var(--line);border-radius:16px;padding:26px;text-align:center;transition:transform .2s,box-shadow .2s;position:relative;overflow:hidden}
+  .hl .philosophy:hover{transform:translateY(-4px);box-shadow:0 14px 34px rgba(176,135,60,.18)}
   .hl .philosophy .glyph{width:52px;height:52px;margin:0 auto 16px;border-radius:14px;display:flex;align-items:center;justify-content:center}
   .hl .philosophy h3{font-family:var(--serif);font-size:1.2rem;color:var(--paper);margin-bottom:8px}
   .hl .philosophy p{font-size:.9rem;color:var(--muted);line-height:1.7;font-weight:300}
 
   /* 兩門課卡片 */
   .hl .course-row{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;margin-top:6px}
-  .hl .course-card{position:relative;display:block;border-radius:20px;padding:32px;overflow:hidden;background:linear-gradient(145deg,rgba(255,255,255,.05),rgba(255,255,255,.01));border:1px solid var(--line);text-decoration:none;color:var(--paper);transition:transform .22s,box-shadow .22s}
+  .hl .course-card{position:relative;display:block;border-radius:20px;padding:32px;overflow:hidden;background:linear-gradient(145deg,rgba(255,255,255,.88),rgba(255,255,255,.56));border:1px solid var(--line);text-decoration:none;color:var(--paper);transition:transform .22s,box-shadow .22s}
   .hl .course-card::before{content:"";position:absolute;inset:0;z-index:0;opacity:.14;transition:opacity .3s}
   .hl .course-card.green::before{background:radial-gradient(circle at 85% 15%,var(--green),transparent 45%)}
   .hl .course-card.blue::before{background:radial-gradient(circle at 85% 15%,var(--blue),transparent 45%)}
-  .hl .course-card:hover{transform:translateY(-6px);box-shadow:0 20px 44px rgba(0,0,0,.42)}
+  .hl .course-card:hover{transform:translateY(-6px);box-shadow:0 20px 44px rgba(176,135,60,.22)}
   .hl .course-card:hover::before{opacity:.26}
   .hl .cc-inner{position:relative;z-index:1}
   .hl .cc-kicker{font-size:.76rem;letter-spacing:.26em;color:var(--gold-soft);margin-bottom:12px;font-weight:500}
   .hl .cc-title{font-family:var(--serif);font-size:clamp(1.5rem,2.6vw,2rem);font-weight:900;margin-bottom:12px}
   .hl .cc-desc{color:var(--muted);font-size:.96rem;font-weight:300;margin-bottom:20px;max-width:44ch}
   .hl .cc-pills{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:24px}
-  .hl .cc-pill{padding:3px 12px;border-radius:999px;font-size:.76rem;color:var(--paper);border:1px solid rgba(255,255,255,.16)}
+  .hl .cc-pill{padding:3px 12px;border-radius:999px;font-size:.76rem;color:var(--paper);border:1px solid rgba(38,51,77,.16)}
   .hl .cc-cta{display:inline-flex;align-items:center;gap:8px;font-weight:700;color:var(--gold-soft);font-size:.95rem;border-bottom:1px solid var(--gold);padding-bottom:2px}
   .hl .course-card:hover .cc-cta{color:var(--gold-bright)}
   .hl .cc-arrow{transition:transform .22s}
   .hl .course-card:hover .cc-arrow{transform:translateX(5px)}
-  .hl .cc-num{position:absolute;top:26px;right:28px;font-family:var(--serif);font-size:2.6rem;font-weight:900;color:rgba(255,255,255,.07)}
+  .hl .cc-num{position:absolute;top:26px;right:28px;font-family:var(--serif);font-size:2.6rem;font-weight:900;color:rgba(38,51,77,.10)}
 
   /* 知識地圖 */
-  .hl .map-card{background:linear-gradient(180deg,rgba(255,255,255,.03),rgba(255,255,255,.01));border:1px solid var(--line);border-radius:20px;padding:26px;margin-top:8px}
+  .hl .map-card{background:linear-gradient(180deg,rgba(255,250,240,.92),rgba(255,250,240,.62));border:1px solid var(--line);border-radius:20px;padding:26px;margin-top:8px}
   .hl .map-card svg{width:100%;height:auto;display:block}
   .hl .map-node text{font-family:var(--sans);fill:var(--paper);text-anchor:middle;font-size:13px;pointer-events:none}
   .hl .map-node circle{fill:rgba(201,162,39,.12);stroke:var(--gold);stroke-width:2;transition:all .2s}

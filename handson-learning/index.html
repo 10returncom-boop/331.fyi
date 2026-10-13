@@ -65,13 +65,13 @@
   <link rel="stylesheet" href="https://miaoda.feishu.cn/fonts/css2?family=Noto+Serif+TC:wght@600;700;900&family=Noto+Sans+TC:wght@300;400;500;700&display=swap">
   <style>
     :root{
-      --bg:#0B1120; --bg-2:#101a30;
-      --gold:#C9A227; --gold-soft:#E3C46D; --gold-bright:#FFF3CE;
-      --paper:#F2ECDF; --muted:#B9C2D4;
-      --line:rgba(201,162,39,.32);
+      --bg:#FFF8EC; --bg-2:#FFF1DB;
+      --gold:#C9A227; --gold-soft:#A97814; --gold-bright:#C9A227;
+      --paper:#26334D; --muted:#5E6A80;
+      --line:rgba(201,162,39,.30);
       --serif:"Noto Serif TC","Songti TC","PMingLiU",serif;
       --sans:"Noto Sans TC","Microsoft JhengHei","微軟正黑體",sans-serif;
-      --green:#7CC576; --blue:#7FB6E8;
+      --green:#3C8A4E; --blue:#2E6FB6;
     }
     *{margin:0;padding:0;box-sizing:border-box}
     html{scroll-behavior:smooth}
@@ -86,7 +86,7 @@
     /* 玻璃導覽 */
     header.nav{
       position:sticky;top:0;z-index:200;backdrop-filter:blur(14px);
-      background:rgba(11,17,32,.72);border-bottom:1px solid var(--line);
+      background:rgba(255,248,236,.86);border-bottom:1px solid var(--line);
     }
     .nav-inner{display:flex;align-items:center;gap:16px;max-width:1160px;margin:0 auto;padding:0 24px;height:64px}
     .nav-brand{display:flex;align-items:center;gap:10px;font-weight:700;color:var(--paper);letter-spacing:.05em}
@@ -101,18 +101,18 @@
     .hero::before{content:"";position:absolute;inset:0;
       background:radial-gradient(ellipse 60% 45% at 50% 42%,rgba(201,162,39,.10),transparent 65%),
       radial-gradient(ellipse 45% 40% at 12% 18%,rgba(127,182,232,.10),transparent 60%),
-      linear-gradient(180deg,#0B1120 0%,#101a30 60%,#0B1120 100%);}
+      linear-gradient(180deg,#FFF3DE 0%,#FFF9EF 60%,#FFF3DE 100%);}
     .hero .wrap{position:relative;z-index:1;text-align:center;padding:96px 24px}
     .eyebrow{font-size:13px;letter-spacing:.34em;color:var(--gold-soft);margin-bottom:22px;display:flex;align-items:center;justify-content:center;gap:14px}
     .eyebrow::before,.eyebrow::after{content:"";width:34px;height:1px;background:linear-gradient(90deg,transparent,var(--gold));}
     .eyebrow::after{background:linear-gradient(90deg,var(--gold),transparent)}
     h1.title{font-family:var(--serif);font-weight:900;font-size:clamp(2.4rem,5.6vw,4.4rem);line-height:1.22;letter-spacing:.04em;margin-bottom:26px}
-    h1 .ripple{display:inline-block;background:linear-gradient(90deg,#C9A227 0%,#E3C46D 12%,#FFF3CE 25%,#E3C46D 38%,#C9A227 50%,#E3C46D 62%,#FFF3CE 75%,#E3C46D 88%,#C9A227 100%);background-size:200% 100%;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent;animation:rippleWave 3.2s linear infinite}
+    h1 .ripple{display:inline-block;background:linear-gradient(90deg,#C9A227 0%,#E3C46D 12%,#C9A227 25%,#E3C46D 38%,#C9A227 50%,#E3C46D 62%,#C9A227 75%,#E3C46D 88%,#C9A227 100%);background-size:200% 100%;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent;animation:rippleWave 3.2s linear infinite}
     @keyframes rippleWave{0%{background-position:0% 0}100%{background-position:200% 0}}
     .hero .lead{font-size:1.18rem;color:var(--muted);max-width:760px;margin:0 auto 26px;font-weight:300}
     .hero-tags{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
     .tag{padding:5px 14px;border-radius:999px;font-size:.82rem;border:1px solid var(--line);color:var(--gold-soft);background:rgba(201,162,39,.08)}
-    .scroll-hint{margin-top:48px;color:rgba(185,194,212,.5);font-size:.8rem;letter-spacing:.2em}
+    .scroll-hint{margin-top:48px;color:rgba(94,106,128,.7);font-size:.8rem;letter-spacing:.2em}
 
     /* 區塊標題 */
     .section{padding:64px 0}
@@ -123,8 +123,8 @@
 
     /* 三句箴言 */
     .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-    .philosophy{background:linear-gradient(180deg,rgba(255,255,255,.03),rgba(255,255,255,.01));border:1px solid var(--line);border-radius:16px;padding:26px;text-align:center;transition:transform .2s,box-shadow .2s;position:relative;overflow:hidden}
-    .philosophy:hover{transform:translateY(-4px);box-shadow:0 14px 34px rgba(0,0,0,.35)}
+    .philosophy{background:linear-gradient(180deg,rgba(255,250,240,.92),rgba(255,250,240,.62));border:1px solid var(--line);border-radius:16px;padding:26px;text-align:center;transition:transform .2s,box-shadow .2s;position:relative;overflow:hidden}
+    .philosophy:hover{transform:translateY(-4px);box-shadow:0 14px 34px rgba(176,135,60,.18)}
     .philosophy .glyph{width:52px;height:52px;margin:0 auto 16px;border-radius:14px;display:flex;align-items:center;justify-content:center}
     .philosophy h3{font-family:var(--serif);font-size:1.2rem;color:var(--paper);margin-bottom:8px}
     .philosophy p{font-size:.9rem;color:var(--muted);line-height:1.7;font-weight:300}
@@ -133,29 +133,29 @@
     .course-row{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;margin-top:6px}
     .course-card{
       position:relative;display:block;border-radius:20px;padding:32px;overflow:hidden;
-      background:linear-gradient(145deg,rgba(255,255,255,.05),rgba(255,255,255,.01));
+      background:linear-gradient(145deg,rgba(255,255,255,.88),rgba(255,255,255,.56));
       border:1px solid var(--line);text-decoration:none;color:var(--paper);
       transition:transform .22s,box-shadow .22s;
     }
     .course-card::before{content:"";position:absolute;inset:0;z-index:0;opacity:.14;transition:opacity .3s}
     .course-card.green::before{background:radial-gradient(circle at 85% 15%,var(--green),transparent 45%)}
     .course-card.blue::before{background:radial-gradient(circle at 85% 15%,var(--blue),transparent 45%)}
-    .course-card:hover{transform:translateY(-6px);box-shadow:0 20px 44px rgba(0,0,0,.42)}
+    .course-card:hover{transform:translateY(-6px);box-shadow:0 20px 44px rgba(176,135,60,.22)}
     .course-card:hover::before{opacity:.26}
     .cc-inner{position:relative;z-index:1}
     .cc-kicker{font-size:.76rem;letter-spacing:.26em;color:var(--gold-soft);margin-bottom:12px;font-weight:500}
     .cc-title{font-family:var(--serif);font-size:clamp(1.5rem,2.6vw,2rem);font-weight:900;margin-bottom:12px}
     .cc-desc{color:var(--muted);font-size:.96rem;font-weight:300;margin-bottom:20px;max-width:44ch}
     .cc-pills{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:24px}
-    .cc-pill{padding:3px 12px;border-radius:999px;font-size:.76rem;color:var(--paper);border:1px solid rgba(255,255,255,.16)}
+    .cc-pill{padding:3px 12px;border-radius:999px;font-size:.76rem;color:var(--paper);border:1px solid rgba(38,51,77,.16)}
     .cc-cta{display:inline-flex;align-items:center;gap:8px;font-weight:700;color:var(--gold-soft);font-size:.95rem;border-bottom:1px solid var(--gold);padding-bottom:2px}
     .course-card:hover .cc-cta{color:var(--gold-bright)}
     .cc-arrow{transition:transform .22s}
     .course-card:hover .cc-arrow{transform:translateX(5px)}
-    .cc-num{position:absolute;top:26px;right:28px;font-family:var(--serif);font-size:2.6rem;font-weight:900;color:rgba(255,255,255,.07)}
+    .cc-num{position:absolute;top:26px;right:28px;font-family:var(--serif);font-size:2.6rem;font-weight:900;color:rgba(38,51,77,.10)}
 
     /* 知識地圖 */
-    .map-card{background:linear-gradient(180deg,rgba(255,255,255,.03),rgba(255,255,255,.01));border:1px solid var(--line);border-radius:20px;padding:26px;margin-top:8px}
+    .map-card{background:linear-gradient(180deg,rgba(255,250,240,.92),rgba(255,250,240,.62));border:1px solid var(--line);border-radius:20px;padding:26px;margin-top:8px}
     .map-card svg{width:100%;height:auto;display:block}
     .map-node text{font-family:var(--sans);fill:var(--paper);text-anchor:middle;font-size:13px;pointer-events:none}
     .map-node circle{fill:rgba(201,162,39,.12);stroke:var(--gold);stroke-width:2;transition:all .2s}
@@ -184,7 +184,7 @@
     .acc-inner{padding:4px 22px 20px;color:var(--muted);font-weight:300;font-size:.95rem}
 
     /* Footer */
-    footer{margin-top:40px;border-top:1px solid var(--line);padding:44px 0 56px;text-align:center;color:rgba(185,194,212,.6);font-size:.9rem;letter-spacing:.1em}
+    footer{margin-top:40px;border-top:1px solid var(--line);padding:44px 0 56px;text-align:center;color:rgba(94,106,128,.72);font-size:.9rem;letter-spacing:.1em}
     footer .seal{display:inline-flex;align-items:center;gap:10px;margin-bottom:16px;color:var(--gold-soft);font-family:var(--serif);font-weight:700;letter-spacing:.28em}
     footer .f-links{margin-bottom:14px;display:flex;gap:18px;justify-content:center;flex-wrap:wrap}
     footer .f-links a{color:var(--muted);font-size:.86rem}
