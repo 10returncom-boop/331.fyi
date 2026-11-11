@@ -444,7 +444,7 @@
     #skShopFab{
       --sk-bg:rgba(18,22,31,.92); --sk-fg:#F3EAD8; --sk-line:rgba(201,162,39,.45);
       --sk-accent:#C9A227; --sk-accent-fg:#0B1120;
-      position:fixed; right:14px; bottom:14px; z-index:9000;
+      position:fixed; right:14px; top:50%; transform:translateY(-50%); z-index:9000;
       display:flex; flex-direction:column; gap:8px; align-items:flex-end;
       font-family:-apple-system,"Segoe UI","Noto Sans TC","PingFang TC",sans-serif;
     }
@@ -461,13 +461,15 @@
     #skFooterShop{ text-align:center; padding:0 24px 40px; font-size:.86rem; }
     #skFooterShop a{ color:var(--gold-soft,#C9A227); text-decoration:none; border-bottom:1px solid rgba(201,162,39,.35); margin:0 8px; }
     #skFooterShop a:hover{ color:var(--gold-bright,#E3C46D); }
-    @media (max-width:520px){ #skShopFab{ right:10px; bottom:10px; gap:6px; } #skShopFab a{ padding:8px 12px; font-size:12px; } }
+    @media (max-width:520px){ #skShopFab{ right:10px; top:50%; transform:translateY(-50%); gap:6px; } #skShopFab a{ padding:8px 12px; font-size:12px; } }
     @media print{ #skShopFab{ display:none; } }
   </style>
+  <style id="skShop3d">#skShopFab{left:14px;bottom:14px;right:auto;top:auto;transform:none;align-items:flex-start;flex-direction:column-reverse}#skShopFab a.primary{width:48px;height:48px;box-sizing:border-box;padding:0;border-radius:50%;justify-content:center;display:flex;align-items:center;font-size:12px;font-weight:800;letter-spacing:.02em;text-transform:lowercase;background:radial-gradient(circle at 32% 26%,rgba(255,255,255,.30) 0%,rgba(255,255,255,0) 45%),linear-gradient(160deg,#5a5d64 0%,#34363b 45%,#141416 100%);border:none;color:#fff;box-shadow:0 6px 14px rgba(0,0,0,.45),inset 0 2px 0 rgba(255,255,255,.25),inset 0 -4px 7px rgba(0,0,0,.55)}#skShopFab a.primary:hover{transform:scale(1.08)}#skShopFab a.primary:active{transform:scale(.94)}@media(max-width:520px){#skShopFab{left:10px;bottom:12px}#skShopFab a.primary{width:44px;height:44px;font-size:11px}}</style>
+  
+  
   <div id="skShopFab" aria-label="訂購入口">
-    <a class="primary" href="https://shop.331.today/#/category/fyi-courses" target="_blank" rel="noopener">
-      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/><path d="M3 4h2.2l2.3 11.2h11.2l2-8.2H6.4"/></svg>
-      線上商店
+    <a class="primary" href="https://331.fyi/shop/#/category/fyi-courses" target="_blank" rel="noopener">
+      shop
     </a>
     <a href="https://docs.google.com/forms/d/e/1FAIpQLSep3QiMXBEPAPoJ7ifA1CBU3twj8UrNPVJing09b4kJkL_WOw/viewform" target="_blank" rel="noopener">
       <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="2.5"/><path d="M8 8h8M8 12h8M8 16h5"/></svg>
@@ -479,8 +481,8 @@
     </a>
   </div>
   <div id="skFooterShop">
-    <a href="https://shop.331.today/#/category/fyi-courses" target="_blank" rel="noopener">線上商店</a>
-    <a href="https://shop.331.today/#/lookup" target="_blank" rel="noopener">訂單查詢</a>
+    <a href="https://331.fyi/shop/#/category/fyi-courses" target="_blank" rel="noopener">線上商店</a>
+    <a href="https://331.today/shop/#/lookup" target="_blank" rel="noopener">訂單查詢</a>
     <a href="https://docs.google.com/forms/d/e/1FAIpQLSep3QiMXBEPAPoJ7ifA1CBU3twj8UrNPVJing09b4kJkL_WOw/viewform" target="_blank" rel="noopener">訂單表單</a>
     <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=10return.com@gmail.com&amp;su=331%20%E8%A8%82%E8%B3%BC%E8%A9%A2%E5%95%8F" target="_blank" rel="noopener">寫信訂購</a>
   </div>
